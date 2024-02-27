@@ -6,7 +6,7 @@ import {
   Form,
   TextField,
   useOpenDialog,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Button, Dialog, DialogTitle, DialogContent } from '@mui/material';
 import React from 'react';

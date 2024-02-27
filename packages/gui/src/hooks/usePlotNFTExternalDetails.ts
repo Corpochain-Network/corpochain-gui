@@ -1,5 +1,5 @@
-import type { Plot, PlotNFTExternal } from '@cryptomines-network/api';
-import { useIsWalletSynced } from '@cryptomines-network/wallets';
+import type { Plot, PlotNFTExternal } from '@serwisgalena/api';
+import { useIsWalletSynced } from '@serwisgalena/wallets';
 import { useMemo } from 'react';
 
 import usePlotNFTName from './usePlotNFTName';

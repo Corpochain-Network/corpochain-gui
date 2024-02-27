@@ -7,7 +7,7 @@ import {
   EstimatedFee,
   FeeTxType,
   TextField,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Grid, FormControl, FormControlLabel, Typography, Radio, Collapse } from '@mui/material';
 import React, { ReactNode } from 'react';

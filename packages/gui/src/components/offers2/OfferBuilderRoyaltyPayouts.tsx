@@ -1,5 +1,5 @@
-import { RoyaltyCalculationFungibleAssetPayout } from '@cryptomines-network/api';
-import { Color, CopyToClipboard, Flex } from '@cryptomines-network/core';
+import { RoyaltyCalculationFungibleAssetPayout } from '@serwisgalena/api';
+import { Color, CopyToClipboard, Flex } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { alpha, Box, Divider } from '@mui/material';
 import React from 'react';

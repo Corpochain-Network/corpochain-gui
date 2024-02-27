@@ -1,4 +1,4 @@
-import { useGetPrivateKeyQuery } from '@cryptomines-network/api-react';
+import { useGetPrivateKeyQuery } from '@serwisgalena/api-react';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';
 import React from 'react';

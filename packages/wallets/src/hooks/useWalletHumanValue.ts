@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
-import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@cryptomines-network/core';
+import type { Wallet } from '@serwisgalena/api';
+import { WalletType } from '@serwisgalena/api';
+import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@serwisgalena/core';
 import BigNumber from 'bignumber.js';
 import { useMemo } from 'react';
 

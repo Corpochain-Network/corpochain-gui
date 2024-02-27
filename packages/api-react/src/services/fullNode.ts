@@ -1,4 +1,4 @@
-import { FullNode } from '@cryptomines-network/api';
+import { FullNode } from '@serwisgalena/api';
 
 // import MethodReturnType from '../@types/MethodReturnType'
 // import MethodFirstParameter from '../@types/MethodFirstParameter'

@@ -1,5 +1,5 @@
-import { Connection } from '@cryptomines-network/api';
-import { useGetFullNodeConnectionsQuery } from '@cryptomines-network/api-react';
+import { Connection } from '@serwisgalena/api';
+import { useGetFullNodeConnectionsQuery } from '@serwisgalena/api-react';
 import {
   Card,
   FormatBytes,
@@ -8,7 +8,7 @@ import {
   Loading,
   Table,
   useOpenDialog,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Button, Tooltip } from '@mui/material';

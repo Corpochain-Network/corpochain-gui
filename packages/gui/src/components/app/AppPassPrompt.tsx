@@ -1,5 +1,5 @@
-import { PassphrasePromptReason } from '@cryptomines-network/api';
-import { useUnlockKeyringMutation, useGetKeyringStatusQuery } from '@cryptomines-network/api-react';
+import { PassphrasePromptReason } from '@serwisgalena/api';
+import { useUnlockKeyringMutation, useGetKeyringStatusQuery } from '@serwisgalena/api-react';
 import {
   Button,
   Flex,
@@ -9,7 +9,7 @@ import {
   ButtonLoading,
   Form,
   TextField,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { KeyboardCapslock as KeyboardCapslockIcon, Visibility as VisibilityIcon } from '@mui/icons-material';
 import {

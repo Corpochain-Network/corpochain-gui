@@ -1,4 +1,4 @@
-import { usePrefs } from '@cryptomines-network/api-react';
+import { usePrefs } from '@serwisgalena/api-react';
 import React, { createContext, ReactNode, useState, useMemo, useCallback } from 'react';
 
 import Mode from '../../constants/Mode';

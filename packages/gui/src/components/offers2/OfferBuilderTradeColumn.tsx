@@ -1,5 +1,5 @@
-import { Flex } from '@cryptomines-network/core';
-import { Offering, Requesting } from '@cryptomines-network/icons';
+import { Flex } from '@serwisgalena/core';
+import { Offering, Requesting } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import { useWatch } from 'react-hook-form';

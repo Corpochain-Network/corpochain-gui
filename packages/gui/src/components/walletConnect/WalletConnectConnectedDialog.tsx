@@ -1,4 +1,4 @@
-import { useGetKeysQuery } from '@cryptomines-network/api-react';
+import { useGetKeysQuery } from '@serwisgalena/api-react';
 import {
   ButtonLoading,
   DialogActions,
@@ -7,7 +7,7 @@ import {
   Loading,
   useShowError,
   CardListItem,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import CloseIcon from '@mui/icons-material/Close';
 import { Box, Divider, Dialog, DialogContent, DialogTitle, IconButton, Typography } from '@mui/material';

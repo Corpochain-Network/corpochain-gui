@@ -1,4 +1,4 @@
-import { Button, Flex, CardStep, useCurrencyCode } from '@cryptomines-network/core';
+import { Button, Flex, CardStep, useCurrencyCode } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';
@@ -17,9 +17,9 @@ export default function PlotNFTSelectFaucet(props: Props) {
 
   const handleClick = React.useCallback(() => {
     if (currencyCode === 'TKOP') {
-      openExternal('https://testnet10-faucet.cryptominesblockchain.pl/');
+      openExternal('https://testnet10-faucet.corpochain.pl/');
     } else {
-      openExternal('https://faucet.cryptominesblockchain.pl/');
+      openExternal('https://faucet.corpochain.pl/');
     }
   }, [currencyCode, openExternal]);
 

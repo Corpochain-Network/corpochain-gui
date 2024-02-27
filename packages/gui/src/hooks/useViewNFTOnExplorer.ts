@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines-network/api';
-import { useCurrencyCode } from '@cryptomines-network/core';
+import type { NFTInfo } from '@serwisgalena/api';
+import { useCurrencyCode } from '@serwisgalena/core';
 
 import useOpenExternal from './useOpenExternal';
 

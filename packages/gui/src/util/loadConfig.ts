@@ -13,7 +13,7 @@ export function getConfigRootDir(net = 'mainnet'): string {
 
   return 'CRYPTOMINES_ROOT' in process.env
     ? untildify(process.env.CRYPTOMINES_ROOT)
-    : path.join(homedir, '.cryptomines', net);
+    : path.join(homedir, '.corpochain', net);
 }
 
 export function readConfigFile(net?: string): string {

@@ -2,7 +2,7 @@ import {
   useCreateNewWalletMutation,
   useGetCurrentAddressQuery,
   useGetWalletBalanceQuery,
-} from '@cryptomines-network/api-react';
+} from '@serwisgalena/api-react';
 import {
   ButtonLoading,
   EstimatedFee,
@@ -14,7 +14,7 @@ import {
   chiaToMojo,
   mojoToChiaLocaleString,
   useCurrencyCode,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { Card, Typography } from '@mui/material';
 import React from 'react';
@@ -69,7 +69,7 @@ export default function ProfileAdd() {
 
   function handleClick() {
     const url = `https://${
-      isTestnet ? 'testnet10-faucet.cryptominesblockchain.pl' : 'faucet.cryptominesblockchain.pl'
+      isTestnet ? 'testnet10-faucet.corpochain.pl' : 'faucet.corpochain.pl'
     }/?address=${currentAddress}`;
     openExternal(url);
   }
@@ -123,7 +123,7 @@ export default function ProfileAdd() {
                     <Trans>Need some {currencyCode}?</Trans>
                   </Typography>
                   <Link onClick={handleClick}>
-                    <Trans>Get Mojos from the Cryptomines Faucet</Trans>
+                    <Trans>Get Mojos from the Corpochain Faucet</Trans>
                   </Link>
                 </Flex>
               )}

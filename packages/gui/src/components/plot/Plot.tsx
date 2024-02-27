@@ -1,4 +1,4 @@
-import { Flex, LayoutDashboardSub } from '@cryptomines-network/core';
+import { Flex, LayoutDashboardSub } from '@serwisgalena/core';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 

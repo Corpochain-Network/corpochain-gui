@@ -6,7 +6,7 @@ import {
   SandboxedIframe,
   usePersistState,
   useDarkMode,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { t, Trans } from '@lingui/macro';
 import { NotInterested /* , Error as ErrorIcon */ } from '@mui/icons-material';
 import { alpha, Box } from '@mui/material';

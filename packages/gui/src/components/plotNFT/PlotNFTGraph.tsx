@@ -1,5 +1,5 @@
-import { Color, Flex } from '@cryptomines-network/core';
-import { WalletGraphTooltip } from '@cryptomines-network/wallets';
+import { Color, Flex } from '@serwisgalena/core';
+import { WalletGraphTooltip } from '@serwisgalena/wallets';
 import { t } from '@lingui/macro';
 import { alpha, Box, Typography } from '@mui/material';
 import React, { ReactNode } from 'react';

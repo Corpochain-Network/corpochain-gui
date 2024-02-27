@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { Wallet } from '@cryptomines-network/api';
-import { useGetWalletsQuery, useGetCatListQuery } from '@cryptomines-network/api-react';
-import { useCurrencyCode } from '@cryptomines-network/core';
+import { WalletType } from '@serwisgalena/api';
+import type { Wallet } from '@serwisgalena/api';
+import { useGetWalletsQuery, useGetCatListQuery } from '@serwisgalena/api-react';
+import { useCurrencyCode } from '@serwisgalena/core';
 import { useMemo } from 'react';
 
 export default function useWallet(walletId?: number | string): {

@@ -1,4 +1,4 @@
-import { useLocalStorage } from '@cryptomines-network/api-react';
+import { useLocalStorage } from '@serwisgalena/api-react';
 import { useState, useEffect } from 'react';
 
 export default function useAppVersion() {

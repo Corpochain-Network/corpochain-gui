@@ -1,4 +1,4 @@
-import { LayoutDashboardSub } from '@cryptomines-network/core';
+import { LayoutDashboardSub } from '@serwisgalena/core';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 

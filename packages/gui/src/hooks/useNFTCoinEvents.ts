@@ -5,7 +5,7 @@ import {
   useNFTCoinRemoved,
   useNFTCoinUpdated,
   useNFTCoinDIDSet,
-} from '@cryptomines-network/api-react';
+} from '@serwisgalena/api-react';
 import { useCallback, useMemo } from 'react';
 
 type Event = {

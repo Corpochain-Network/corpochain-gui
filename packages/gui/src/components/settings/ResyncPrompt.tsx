@@ -1,5 +1,5 @@
-import { useResyncWalletMutation } from '@cryptomines-network/api-react';
-import { AlertDialog, Button, DialogActions, useOpenDialog } from '@cryptomines-network/core';
+import { useResyncWalletMutation } from '@serwisgalena/api-react';
+import { AlertDialog, Button, DialogActions, useOpenDialog } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import React from 'react';
@@ -39,8 +39,8 @@ export default function ResyncPrompt(props: Props) {
       <DialogContent>
         <DialogContentText>
           <Trans>
-            To initiate a wallet resync, all Cryptomines services must first be shut down. After shutting down, you will
-            be required to restart Cryptomines to begin the resyncing process. Are you sure you want to shut down and
+            To initiate a wallet resync, all Corpochain services must first be shut down. After shutting down, you will
+            be required to restart Corpochain to begin the resyncing process. Are you sure you want to shut down and
             resync?
           </Trans>
         </DialogContentText>

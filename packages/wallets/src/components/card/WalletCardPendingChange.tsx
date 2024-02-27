@@ -1,5 +1,5 @@
-import { useGetWalletBalanceQuery } from '@cryptomines-network/api-react';
-import { CardSimple } from '@cryptomines-network/core';
+import { useGetWalletBalanceQuery } from '@serwisgalena/api-react';
+import { CardSimple } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React, { ReactElement } from 'react';
 

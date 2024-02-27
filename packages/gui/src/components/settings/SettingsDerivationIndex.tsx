@@ -1,7 +1,7 @@
-import { SyncingStatus } from '@cryptomines-network/api';
-import { useExtendDerivationIndexMutation, useGetCurrentDerivationIndexQuery } from '@cryptomines-network/api-react';
-import { AlertDialog, ButtonLoading, Flex, Form, TextField, useOpenDialog } from '@cryptomines-network/core';
-import { useWalletState } from '@cryptomines-network/wallets';
+import { SyncingStatus } from '@serwisgalena/api';
+import { useExtendDerivationIndexMutation, useGetCurrentDerivationIndexQuery } from '@serwisgalena/api-react';
+import { AlertDialog, ButtonLoading, Flex, Form, TextField, useOpenDialog } from '@serwisgalena/core';
+import { useWalletState } from '@serwisgalena/wallets';
 import { Trans, t } from '@lingui/macro';
 import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';

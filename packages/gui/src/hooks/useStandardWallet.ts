@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
-import { useGetWalletsQuery, useGetWalletBalanceQuery } from '@cryptomines-network/api-react';
+import type { Wallet } from '@serwisgalena/api';
+import { WalletType } from '@serwisgalena/api';
+import { useGetWalletsQuery, useGetWalletBalanceQuery } from '@serwisgalena/api-react';
 import { useMemo } from 'react';
 
 export default function useStandardWallet(): {

@@ -5,9 +5,9 @@ import {
   useGetLoggedInFingerprintQuery,
   useGetTransactionAsyncMutation,
   usePrefs,
-} from '@cryptomines-network/api-react';
-import { Truncate, Button, Color, useOpenDialog, AlertDialog, Flex, More, MenuItem } from '@cryptomines-network/core';
-import { Burn as BurnIcon } from '@cryptomines-network/icons';
+} from '@serwisgalena/api-react';
+import { Truncate, Button, Color, useOpenDialog, AlertDialog, Flex, More, MenuItem } from '@serwisgalena/core';
+import { Burn as BurnIcon } from '@serwisgalena/icons';
 import { Trans, t } from '@lingui/macro';
 import { Delete as DeleteIcon, Edit as EditIcon } from '@mui/icons-material';
 import { alpha, Box, Card, Typography, Table, TableRow, TableCell, ListItemIcon, IconButton } from '@mui/material';

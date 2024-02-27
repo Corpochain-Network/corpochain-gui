@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { CATToken, Wallet } from '@cryptomines-network/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { useCurrencyCode } from '@cryptomines-network/core';
+import { WalletType } from '@serwisgalena/api';
+import type { CATToken, Wallet } from '@serwisgalena/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@serwisgalena/api-react';
+import { useCurrencyCode } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import React, { useMemo } from 'react';
@@ -48,9 +48,9 @@ export default function NFTOfferTokenSelector(props: Props) {
       (wallet: WalletType) => ({
         walletId: wallet.id,
         walletType: wallet.type,
-        name: 'Cryptomines',
+        name: 'Corpochain',
         symbol: currencyCode,
-        displayName: `Cryptomines (${currencyCode})`,
+        displayName: `Corpochain (${currencyCode})`,
         disabled: false,
         tail: '',
       })

@@ -1,6 +1,6 @@
-import { WalletType, type Wallet } from '@cryptomines-network/api';
-import { useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { Dropdown, Flex, Loading, useTrans } from '@cryptomines-network/core';
+import { WalletType, type Wallet } from '@serwisgalena/api';
+import { useGetWalletsQuery } from '@serwisgalena/api-react';
+import { Dropdown, Flex, Loading, useTrans } from '@serwisgalena/core';
 import { ListItemIcon, ListItemText, Typography } from '@mui/material';
 import React, { useMemo } from 'react';
 import { useNavigate } from 'react-router';
@@ -12,7 +12,7 @@ import WalletIcon from './WalletIcon';
 function getPrimaryTitle(wallet: Wallet): string {
   switch (wallet.type) {
     case WalletType.STANDARD_WALLET:
-      return 'Cryptomines';
+      return 'Corpochain';
     default:
       return wallet.name;
   }

@@ -1,5 +1,5 @@
-import { Loading, chiaToMojo, mojoToChiaLocaleString, useCurrencyCode } from '@cryptomines-network/core';
-import { Farming } from '@cryptomines-network/icons';
+import { Loading, chiaToMojo, mojoToChiaLocaleString, useCurrencyCode } from '@serwisgalena/core';
+import { Farming } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import React, { useMemo } from 'react';
 import { useFieldArray, useWatch } from 'react-hook-form';
@@ -73,7 +73,7 @@ export default function OfferBuilderXCHSection(props: OfferBuilderXCHSectionProp
     <OfferBuilderSection
       icon={<Farming color="info" />}
       title={currencyCode}
-      subtitle={<Trans>Cryptomines ({currencyCode}) is a digital currency that is secure and sustainable</Trans>}
+      subtitle={<Trans>Corpochain ({currencyCode}) is a digital currency that is secure and sustainable</Trans>}
       onAdd={!fields.length ? handleAdd : undefined}
       expanded={!!fields.length}
       muted={muted}

@@ -1,4 +1,4 @@
-import { useGetWalletAddressesQuery } from '@cryptomines-network/api-react';
+import { useGetWalletAddressesQuery } from '@serwisgalena/api-react';
 import { useMemo } from 'react';
 
 export default function useWalletKeyAddresses() {

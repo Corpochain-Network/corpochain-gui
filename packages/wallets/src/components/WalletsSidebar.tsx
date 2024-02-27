@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import { useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { Flex, CardListItem, ScrollbarFlex } from '@cryptomines-network/core';
+import { WalletType } from '@serwisgalena/api';
+import { useGetWalletsQuery } from '@serwisgalena/api-react';
+import { Flex, CardListItem, ScrollbarFlex } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography, Theme } from '@mui/material';
 import { orderBy } from 'lodash';

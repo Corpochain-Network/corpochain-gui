@@ -1,5 +1,5 @@
-import { Flex } from '@cryptomines-network/core';
-import { Offers as OffersIcon } from '@cryptomines-network/icons';
+import { Flex } from '@serwisgalena/core';
+import { Offers as OffersIcon } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

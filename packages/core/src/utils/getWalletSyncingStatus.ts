@@ -1,4 +1,4 @@
-import { SyncingStatus } from '@cryptomines-network/api';
+import { SyncingStatus } from '@serwisgalena/api';
 
 export default function getWalletSyncingStatus(walletState) {
   const { syncing, synced } = walletState;

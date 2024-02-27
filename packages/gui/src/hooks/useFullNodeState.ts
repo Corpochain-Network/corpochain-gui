@@ -1,5 +1,5 @@
-import { BlockchainState } from '@cryptomines-network/api';
-import { useGetBlockchainStateQuery } from '@cryptomines-network/api-react';
+import { BlockchainState } from '@serwisgalena/api';
+import { useGetBlockchainStateQuery } from '@serwisgalena/api-react';
 
 import FullNodeState from '../constants/FullNodeState';
 

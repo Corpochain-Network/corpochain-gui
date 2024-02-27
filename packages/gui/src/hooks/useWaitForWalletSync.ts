@@ -1,5 +1,5 @@
-import { SyncingStatus } from '@cryptomines-network/api';
-import { useWalletState } from '@cryptomines-network/wallets';
+import { SyncingStatus } from '@serwisgalena/api';
+import { useWalletState } from '@serwisgalena/wallets';
 import { useCallback, useState, useRef, useEffect } from 'react';
 
 export default function useWaitForWalletSync() {

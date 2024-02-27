@@ -1,4 +1,4 @@
-import { usePrefs } from '@cryptomines-network/api-react';
+import { usePrefs } from '@serwisgalena/api-react';
 
 export default function useSkipMigration(): [boolean, (skip: boolean) => void] {
   const [skip, setSkip] = usePrefs<boolean>('skipMigration', false);

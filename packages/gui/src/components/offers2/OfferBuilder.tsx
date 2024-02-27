@@ -1,4 +1,4 @@
-import { Form } from '@cryptomines-network/core';
+import { Form } from '@serwisgalena/core';
 import { Grid } from '@mui/material';
 import React, { forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 import { useForm } from 'react-hook-form';

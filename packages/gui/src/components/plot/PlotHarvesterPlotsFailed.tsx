@@ -1,6 +1,6 @@
-import { type Plot } from '@cryptomines-network/api';
-import { useGetHarvesterPlotsInvalidQuery, useGetHarvesterQuery } from '@cryptomines-network/api-react';
-import { TableControlled } from '@cryptomines-network/core';
+import { type Plot } from '@serwisgalena/api';
+import { useGetHarvesterPlotsInvalidQuery, useGetHarvesterQuery } from '@serwisgalena/api-react';
+import { TableControlled } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React, { useState, useMemo } from 'react';

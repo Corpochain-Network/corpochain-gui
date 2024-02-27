@@ -1,5 +1,5 @@
-import type { NFTAttribute } from '@cryptomines-network/api';
-import { Flex } from '@cryptomines-network/core';
+import type { NFTAttribute } from '@serwisgalena/api';
+import { Flex } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography, LinearProgress } from '@mui/material';
 import { styled } from '@mui/material/styles';

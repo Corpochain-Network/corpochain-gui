@@ -1,6 +1,6 @@
-import { type Plot } from '@cryptomines-network/api';
-import { useGetHarvesterPlotsValidQuery, useGetHarvesterQuery } from '@cryptomines-network/api-react';
-import { Address, TableControlled, Flex, FormatBytes, Tooltip, StateColor } from '@cryptomines-network/core';
+import { type Plot } from '@serwisgalena/api';
+import { useGetHarvesterPlotsValidQuery, useGetHarvesterQuery } from '@serwisgalena/api-react';
+import { Address, TableControlled, Flex, FormatBytes, Tooltip, StateColor } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';

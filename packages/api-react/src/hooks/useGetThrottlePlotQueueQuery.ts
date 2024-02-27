@@ -1,4 +1,4 @@
-import { PlotQueueItem } from '@cryptomines-network/api';
+import { PlotQueueItem } from '@serwisgalena/api';
 
 import { useGetPlotQueueQuery } from '../services/plotter';
 import useThrottleQuery from './useThrottleQuery';

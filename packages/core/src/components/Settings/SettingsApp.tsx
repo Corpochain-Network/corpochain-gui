@@ -1,6 +1,6 @@
 import { type Shell } from 'electron';
 
-import { Farming } from '@cryptomines-network/icons';
+import { Farming } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import {
   WbSunny as WbSunnyIcon,
@@ -46,7 +46,7 @@ export default function SettingsApp(props: SettingsAppProps) {
   async function handleOpenFAQURL(): Promise<void> {
     try {
       const { shell } = window as unknown as { shell: Shell };
-      await shell.openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/FAQ');
+      await shell.openExternal('https://github.com/serwisgalena/corpochain/wiki/FAQ');
     } catch (error: any) {
       showError(error);
     }
@@ -55,7 +55,7 @@ export default function SettingsApp(props: SettingsAppProps) {
   async function handleOpenSendFeedbackURL(): Promise<void> {
     try {
       const { shell } = window as unknown as { shell: Shell };
-      await shell.openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/discussions/new/choose');
+      await shell.openExternal('https://github.com/serwisgalena/corpochain/discussions/new/choose');
     } catch (error: any) {
       showError(error);
     }
@@ -121,7 +121,7 @@ export default function SettingsApp(props: SettingsAppProps) {
       <Flex flexDirection="column" gap={1}>
         <Flex flexDirection="row" gap={1}>
           <SettingsLabel>
-            <Trans>Cryptomines Application Version:</Trans>
+            <Trans>Corpochain Application Version:</Trans>
           </SettingsLabel>
           {version && (
             <Typography variant="body1" color="textSecondary">

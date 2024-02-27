@@ -1,5 +1,5 @@
-import { Button, Color, Flex, Logo, Card, useMode, Mode } from '@cryptomines-network/core';
-import { Farming as FarmingIcon } from '@cryptomines-network/icons';
+import { Button, Color, Flex, Logo, Card, useMode, Mode } from '@serwisgalena/core';
+import { Farming as FarmingIcon } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import {
   AccountBalanceWallet as AccountBalanceWalletIcon,

@@ -1,5 +1,5 @@
-import { Button, CardHero, Link, useOpenDialog } from '@cryptomines-network/core';
-import { Farming } from '@cryptomines-network/icons';
+import { Button, CardHero, Link, useOpenDialog } from '@serwisgalena/core';
+import { Farming } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { Divider, Grid, Typography } from '@mui/material';
 import React from 'react';
@@ -30,7 +30,7 @@ export default function FarmHero() {
               transactions. This is where your farm will be once you add a plot.{' '}
               <Link
                 target="_blank"
-                href="https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/Network-Architecture"
+                href="https://github.com/serwisgalena/corpochain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

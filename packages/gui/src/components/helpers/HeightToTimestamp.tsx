@@ -1,4 +1,4 @@
-import { useGetTimestampForHeightQuery } from '@cryptomines-network/api-react';
+import { useGetTimestampForHeightQuery } from '@serwisgalena/api-react';
 import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import React from 'react';

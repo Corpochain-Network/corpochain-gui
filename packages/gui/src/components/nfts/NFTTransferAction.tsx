@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines-network/api';
-import { useTransferNFTMutation } from '@cryptomines-network/api-react';
+import type { NFTInfo } from '@serwisgalena/api';
+import { useTransferNFTMutation } from '@serwisgalena/api-react';
 import {
   Button,
   ButtonLoading,
@@ -12,8 +12,8 @@ import {
   useOpenDialog,
   validAddress,
   useShowError,
-} from '@cryptomines-network/core';
-import { AddressBookAutocomplete } from '@cryptomines-network/wallets';
+} from '@serwisgalena/core';
+import { AddressBookAutocomplete } from '@serwisgalena/wallets';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import React from 'react';

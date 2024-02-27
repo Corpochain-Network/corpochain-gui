@@ -1,5 +1,5 @@
-import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@cryptomines-network/api-react';
-import { State, CardSimple } from '@cryptomines-network/core';
+import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@serwisgalena/api-react';
+import { State, CardSimple } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import moment from 'moment';

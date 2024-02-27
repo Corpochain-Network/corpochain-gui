@@ -1,5 +1,5 @@
-import { store, walletApi } from '@cryptomines-network/api-react';
-import { isValidURL } from '@cryptomines-network/core';
+import { store, walletApi } from '@serwisgalena/api-react';
+import { isValidURL } from '@serwisgalena/core';
 
 import OfferServices from '../constants/OfferServices';
 import offerToOfferBuilderData from './offerToOfferBuilderData';

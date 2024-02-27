@@ -1,6 +1,6 @@
-import { Connection, ServiceConnectionName } from '@cryptomines-network/api';
-import { useGetWalletConnectionsQuery } from '@cryptomines-network/api-react';
-import { Card, FormatBytes, Loading, Table } from '@cryptomines-network/core';
+import { Connection, ServiceConnectionName } from '@serwisgalena/api';
+import { useGetWalletConnectionsQuery } from '@serwisgalena/api-react';
+import { Card, FormatBytes, Loading, Table } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Tooltip } from '@mui/material';
 import React from 'react';

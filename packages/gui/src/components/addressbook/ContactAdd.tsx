@@ -1,4 +1,4 @@
-import { fromBech32m } from '@cryptomines-network/api';
+import { fromBech32m } from '@serwisgalena/api';
 import {
   AddressBookContext,
   Color,
@@ -7,7 +7,7 @@ import {
   TextField,
   TooltipIcon,
   Flex,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Add, Remove } from '@mui/icons-material';
 import { Button, IconButton, Typography, Box } from '@mui/material';

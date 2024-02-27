@@ -1,4 +1,4 @@
-import { Loading, State, StateIndicator } from '@cryptomines-network/core';
+import { Loading, State, StateIndicator } from '@serwisgalena/core';
 import React from 'react';
 
 import FullNodeState from '../../constants/FullNodeState';

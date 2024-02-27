@@ -1,7 +1,7 @@
 {
-  "name": "@cryptomines-network/wallets",
-  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
-  "description": "Cryptomines wallets Library",
+  "name": "@serwisgalena/wallets",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://corpochain.pl/)",
+  "description": "Corpochain wallets Library",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"
@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "@babel/runtime": "7.22.6",
-    "@cryptomines-network/api": "1.0.0",
-    "@cryptomines-network/api-react": "1.0.0",
-    "@cryptomines-network/core": "1.0.0",
-    "@cryptomines-network/icons": "1.0.0",
+    "@serwisgalena/api": "1.0.0",
+    "@serwisgalena/api-react": "1.0.0",
+    "@serwisgalena/core": "1.0.0",
+    "@serwisgalena/icons": "1.0.0",
     "@lingui/macro": "4.2.1",
     "@rehooks/local-storage": "2.4.4",
     "bignumber.js": "9.0.2",
@@ -91,9 +91,9 @@
     "typescript": "4.9.5"
   },
   "peerDependencies": {
-    "@cryptomines-network/api": "1.0.0",
-    "@cryptomines-network/api-react": "1.0.0",
-    "@cryptomines-network/core": "1.0.0",
+    "@serwisgalena/api": "1.0.0",
+    "@serwisgalena/api-react": "1.0.0",
+    "@serwisgalena/core": "1.0.0",
     "@lingui/core": "4.2.1",
     "@lingui/react": "4.2.1",
     "@mui/icons-material": "5.11.16",

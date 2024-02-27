@@ -6,7 +6,7 @@ import type {
   Harvester,
   PlotterService,
   WalletService,
-} from '@cryptomines-network/api';
+} from '@serwisgalena/api';
 
 type Service =
   | typeof Daemon

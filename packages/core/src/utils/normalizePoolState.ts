@@ -1,4 +1,4 @@
-import type { PoolState } from '@cryptomines-network/api';
+import type { PoolState } from '@serwisgalena/api';
 
 import removeOldPoints from './removeOldPoints';
 

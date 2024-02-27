@@ -1,4 +1,4 @@
-import { store, api } from '@cryptomines-network/api-react';
+import { store, api } from '@serwisgalena/api-react';
 import {
   useDarkMode,
   sleep,
@@ -12,7 +12,7 @@ import {
   light,
   ErrorBoundary,
   AuthProvider,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { nativeTheme } from '@electron/remote';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';

@@ -1,10 +1,10 @@
-import { WalletType, TransactionType, TransactionTypeFilterMode, toBech32m } from '@cryptomines-network/api';
-import type { Transaction } from '@cryptomines-network/api';
+import { WalletType, TransactionType, TransactionTypeFilterMode, toBech32m } from '@serwisgalena/api';
+import type { Transaction } from '@serwisgalena/api';
 import {
   useGetOfferRecordMutation,
   useGetSyncStatusQuery,
   useGetTransactionMemoMutation,
-} from '@cryptomines-network/api-react';
+} from '@serwisgalena/api-react';
 import {
   AddressBookContext,
   Card,
@@ -18,8 +18,8 @@ import {
   mojoToCAT,
   FormatLargeNumber,
   truncateValue,
-} from '@cryptomines-network/core';
-import type { Row } from '@cryptomines-network/core';
+} from '@serwisgalena/core';
+import type { Row } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
 import {

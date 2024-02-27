@@ -1,4 +1,4 @@
-import { WalletService } from '@cryptomines-network/api';
+import { WalletService } from '@serwisgalena/api';
 
 import useSubscribeToEvent from './useSubscribeToEvent';
 

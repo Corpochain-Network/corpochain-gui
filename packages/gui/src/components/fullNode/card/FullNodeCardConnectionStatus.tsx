@@ -1,6 +1,6 @@
-import { ServiceName } from '@cryptomines-network/api';
-import { useService } from '@cryptomines-network/api-react';
-import { CardSimple } from '@cryptomines-network/core';
+import { ServiceName } from '@serwisgalena/api';
+import { useService } from '@serwisgalena/api-react';
+import { CardSimple } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import { useSetCATNameMutation, useGetLocalCatName } from '@cryptomines-network/api-react';
-import { Tooltip, CardListItem, Flex, Link, useShowError, Form, TextField } from '@cryptomines-network/core';
+import { WalletType } from '@serwisgalena/api';
+import { useSetCATNameMutation, useGetLocalCatName } from '@serwisgalena/api-react';
+import { Tooltip, CardListItem, Flex, Link, useShowError, Form, TextField } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography, Switch, CircularProgress } from '@mui/material';
 import React, { useEffect, useMemo, useState, useRef } from 'react';

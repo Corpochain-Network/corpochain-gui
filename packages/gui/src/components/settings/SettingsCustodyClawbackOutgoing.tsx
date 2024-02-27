@@ -1,10 +1,10 @@
-import { Flex, Form, TextField, ButtonLoading } from '@cryptomines-network/core';
-import { ConnectCheckmark } from '@cryptomines-network/icons';
+import { Flex, Form, TextField, ButtonLoading } from '@serwisgalena/core';
+import { ConnectCheckmark } from '@serwisgalena/icons';
 import {
   useClawbackDefaultTime,
   type ClawbackDefaultTimeInput,
   clawbackDefaultTimeDefaults,
-} from '@cryptomines-network/wallets';
+} from '@serwisgalena/wallets';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

@@ -1,8 +1,8 @@
 {
-  "name": "@cryptomines-network/core",
-  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
-  "description": "Cryptomines Core Library",
-  "productName": "Cryptomines Blockchain",
+  "name": "@serwisgalena/core",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://corpochain.pl/)",
+  "description": "Corpochain Core Library",
+  "productName": "Corpochain Blockchain",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"
@@ -23,9 +23,9 @@
   },
   "dependencies": {
     "@babel/runtime": "7.22.6",
-    "@cryptomines-network/api": "1.0.0",
-    "@cryptomines-network/api-react": "1.0.0",
-    "@cryptomines-network/icons": "1.0.0",
+    "@serwisgalena/api": "1.0.0",
+    "@serwisgalena/api-react": "1.0.0",
+    "@serwisgalena/icons": "1.0.0",
     "@emoji-mart/data": "1.1.2",
     "@fontsource/roboto": "4.5.1",
     "@lingui/macro": "4.2.1",
@@ -108,9 +108,9 @@
     "vite": "3.2.7"
   },
   "peerDependencies": {
-    "@cryptomines-network/api": "1.0.0",
-    "@cryptomines-network/api-react": "1.0.0",
-    "@cryptomines-network/icons": "1.0.0",
+    "@serwisgalena/api": "1.0.0",
+    "@serwisgalena/api-react": "1.0.0",
+    "@serwisgalena/icons": "1.0.0",
     "@electron/remote": "2.0.8",
     "@lingui/core": "4.2.1",
     "@lingui/react": "4.2.1",

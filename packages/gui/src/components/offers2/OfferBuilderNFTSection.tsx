@@ -1,5 +1,5 @@
-import { Flex } from '@cryptomines-network/core';
-import { NFTs } from '@cryptomines-network/icons';
+import { Flex } from '@serwisgalena/core';
+import { NFTs } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import { useFieldArray } from 'react-hook-form';

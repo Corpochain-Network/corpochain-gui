@@ -1,7 +1,7 @@
-import type { Wallet, CATToken } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { Select, useCurrencyCode } from '@cryptomines-network/core';
+import type { Wallet, CATToken } from '@serwisgalena/api';
+import { WalletType } from '@serwisgalena/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@serwisgalena/api-react';
+import { Select, useCurrencyCode } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem } from '@mui/material';
 import React, { useMemo } from 'react';
@@ -64,7 +64,7 @@ function buildAssetSelectorList(params: BuildAssetSelectorListParams): WalletOff
     }
 
     if (wallet.type === WalletType.STANDARD_WALLET) {
-      name = 'Cryptomines';
+      name = 'Corpochain';
       symbol = chiaCurrencyCode;
     } else if (wallet.type === WalletType.CAT) {
       name = wallet.name;

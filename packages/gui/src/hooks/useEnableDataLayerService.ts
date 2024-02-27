@@ -1,4 +1,4 @@
-import { usePrefs } from '@cryptomines-network/api-react';
+import { usePrefs } from '@serwisgalena/api-react';
 
 export default function useEnableDataLayerService() {
   return usePrefs<boolean>('enableDataLayerService', false);

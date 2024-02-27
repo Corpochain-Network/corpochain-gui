@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines-network/api';
-import { Color } from '@cryptomines-network/core';
+import type { NFTInfo } from '@serwisgalena/api';
+import { Color } from '@serwisgalena/core';
 import { t } from '@lingui/macro';
 import { alpha } from '@mui/material';
 import React from 'react';

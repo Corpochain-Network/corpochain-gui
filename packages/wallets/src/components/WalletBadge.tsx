@@ -1,7 +1,7 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
-import { useGetCatListQuery } from '@cryptomines-network/api-react';
-import { Tooltip } from '@cryptomines-network/core';
+import type { Wallet } from '@serwisgalena/api';
+import { WalletType } from '@serwisgalena/api';
+import { useGetCatListQuery } from '@serwisgalena/api-react';
+import { Tooltip } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { VerifiedUser as VerifiedUserIcon, VerifiedUserProps } from '@mui/icons-material';
 import React from 'react';

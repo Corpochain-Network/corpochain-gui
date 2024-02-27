@@ -1,5 +1,5 @@
-import { useRefreshPlotsMutation } from '@cryptomines-network/api-react';
-import { Button, Flex, useOpenDialog, MenuItem, More } from '@cryptomines-network/core';
+import { useRefreshPlotsMutation } from '@serwisgalena/api-react';
+import { Button, Flex, useOpenDialog, MenuItem, More } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Add, Refresh } from '@mui/icons-material';
 import { ListItemIcon, Typography } from '@mui/material';

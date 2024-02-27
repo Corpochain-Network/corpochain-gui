@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
-import { chiaToMojo, catToMojo } from '@cryptomines-network/core';
+import type { Wallet } from '@serwisgalena/api';
+import { WalletType } from '@serwisgalena/api';
+import { chiaToMojo, catToMojo } from '@serwisgalena/core';
 import { t } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 

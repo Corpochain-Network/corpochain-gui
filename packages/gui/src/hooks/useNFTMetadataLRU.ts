@@ -1,4 +1,4 @@
-import LRU from '@cryptomines-network/core';
+import LRU from '@serwisgalena/core';
 import { useContext } from 'react';
 
 import { LRUsContext } from '../components/lrus/LRUsProvider';

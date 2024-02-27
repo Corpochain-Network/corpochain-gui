@@ -1,6 +1,6 @@
-// import { useGetNFTInfoQuery } from '@cryptomines-network/api-react';
-import { fromBech32m } from '@cryptomines-network/api';
-import { AddressBookContext, Color, EmojiAndColorPicker, Flex, Form, TextField } from '@cryptomines-network/core';
+// import { useGetNFTInfoQuery } from '@serwisgalena/api-react';
+import { fromBech32m } from '@serwisgalena/api';
+import { AddressBookContext, Color, EmojiAndColorPicker, Flex, Form, TextField } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Add, Remove } from '@mui/icons-material';
 import { Box, Button, IconButton, Typography } from '@mui/material';

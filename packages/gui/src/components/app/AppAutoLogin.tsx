@@ -1,5 +1,5 @@
-import { useGetKeysQuery, useGetLoggedInFingerprintQuery } from '@cryptomines-network/api-react';
-import { LayoutLoading } from '@cryptomines-network/core';
+import { useGetKeysQuery, useGetLoggedInFingerprintQuery } from '@serwisgalena/api-react';
+import { LayoutLoading } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React, { useCallback, useEffect, type ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';

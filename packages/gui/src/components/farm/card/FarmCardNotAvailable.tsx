@@ -1,4 +1,4 @@
-import { State, StateIndicator, CardSimple } from '@cryptomines-network/core';
+import { State, StateIndicator, CardSimple } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React, { type ReactNode } from 'react';
 

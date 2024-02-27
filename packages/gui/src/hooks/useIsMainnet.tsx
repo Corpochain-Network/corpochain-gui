@@ -1,4 +1,4 @@
-import { useGetNetworkInfoQuery } from '@cryptomines-network/api-react';
+import { useGetNetworkInfoQuery } from '@serwisgalena/api-react';
 
 export default function useIsMainnet(): boolean | undefined {
   const { data: networkInfo } = useGetNetworkInfoQuery();

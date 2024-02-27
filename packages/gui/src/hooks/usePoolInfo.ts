@@ -1,4 +1,4 @@
-import { isValidURL } from '@cryptomines-network/core';
+import { isValidURL } from '@serwisgalena/core';
 import { t } from '@lingui/macro';
 import { useAsync } from 'react-use';
 

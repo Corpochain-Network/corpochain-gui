@@ -1,5 +1,5 @@
-import { type NFTInfo } from '@cryptomines-network/api';
-import { useTransferNFTMutation, useLocalStorage } from '@cryptomines-network/api-react';
+import { type NFTInfo } from '@serwisgalena/api';
+import { useTransferNFTMutation, useLocalStorage } from '@serwisgalena/api-react';
 import {
   Button,
   ButtonLoading,
@@ -11,7 +11,7 @@ import {
   chiaToMojo,
   useOpenDialog,
   useShowError,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import React, { useEffect } from 'react';

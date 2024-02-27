@@ -6,14 +6,14 @@ import {
   ServiceName,
   ServiceNameValue,
   PassphrasePromptReason,
-} from '@cryptomines-network/api';
+} from '@serwisgalena/api';
 import {
   useCloseMutation,
   useGetStateQuery,
   useGetKeyringStatusQuery,
   useServices,
   useGetVersionQuery,
-} from '@cryptomines-network/api-react';
+} from '@serwisgalena/api-react';
 import {
   Flex,
   LayoutHero,
@@ -23,7 +23,7 @@ import {
   useIsSimulator,
   useAppVersion,
   useCurrencyCode,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Collapse } from '@mui/material';
 import isElectron from 'is-electron';
@@ -150,7 +150,7 @@ export default function AppState(props: Props) {
       ipcRenderer.invoke('processLaunchTasks');
 
       if (isTestnet && !updatedWindowTitle) {
-        ipcRenderer.invoke('setWindowTitle', 'Cryptomines Blockchain (Testnet)');
+        ipcRenderer.invoke('setWindowTitle', 'Corpochain Blockchain (Testnet)');
         setUpdatedWindowTitle(true);
       }
 

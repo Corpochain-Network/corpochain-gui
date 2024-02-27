@@ -1,5 +1,5 @@
-import { useGetOfferSummaryMutation } from '@cryptomines-network/api-react';
-import { DialogActions, Loading, Button } from '@cryptomines-network/core';
+import { useGetOfferSummaryMutation } from '@serwisgalena/api-react';
+import { DialogActions, Loading, Button } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import CloseIcon from '@mui/icons-material/Close';
 import { Alert, Divider, Dialog, DialogContent, DialogTitle, IconButton } from '@mui/material';

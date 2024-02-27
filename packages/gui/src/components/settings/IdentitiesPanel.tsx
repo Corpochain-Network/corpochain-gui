@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import { useGetDIDQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { CardListItem, Flex, Truncate } from '@cryptomines-network/core';
+import { WalletType } from '@serwisgalena/api';
+import { useGetDIDQuery, useGetWalletsQuery } from '@serwisgalena/api-react';
+import { CardListItem, Flex, Truncate } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Add } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';

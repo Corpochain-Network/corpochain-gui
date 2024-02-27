@@ -1,5 +1,5 @@
-import { usePrefs } from '@cryptomines-network/api-react';
-import { AdvancedOptions, ButtonSelected, Flex, TextField, Checkbox, TooltipIcon } from '@cryptomines-network/core';
+import { usePrefs } from '@serwisgalena/api-react';
+import { AdvancedOptions, ButtonSelected, Flex, TextField, Checkbox, TooltipIcon } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { FormControl, FormControlLabel, Typography } from '@mui/material';
 import React from 'react';

@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { CATToken, Wallet } from '@cryptomines-network/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
+import { WalletType } from '@serwisgalena/api';
+import type { CATToken, Wallet } from '@serwisgalena/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@serwisgalena/api-react';
 import { Trans, t } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem, Select, Typography } from '@mui/material';
 import { orderBy } from 'lodash';

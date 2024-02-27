@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { NFTInfo } from '@cryptomines-network/api';
-import { useCreateOfferForIdsMutation, useGetWalletBalanceQuery } from '@cryptomines-network/api-react';
+import { WalletType } from '@serwisgalena/api';
+import type { NFTInfo } from '@serwisgalena/api';
+import { useCreateOfferForIdsMutation, useGetWalletBalanceQuery } from '@serwisgalena/api-react';
 import {
   Amount,
   AmountProps,
@@ -27,7 +27,7 @@ import {
   useLocale,
   useOpenDialog,
   useShowError,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { alpha, Box, Divider, Grid, Tabs, Tab, Typography, useTheme } from '@mui/material';
@@ -550,7 +550,7 @@ export default function NFTOfferEditor(props: NFTOfferEditorProps) {
       walletId: 1,
       walletType: WalletType.STANDARD_WALLET,
       symbol: currencyCode,
-      name: 'Cryptomines',
+      name: 'Corpochain',
       spendableBalance: new BigNumber(0),
     },
     tokenAmount: '',

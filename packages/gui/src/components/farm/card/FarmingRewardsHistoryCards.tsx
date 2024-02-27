@@ -1,4 +1,4 @@
-import { useGetFarmedAmountQuery } from '@cryptomines-network/api-react';
+import { useGetFarmedAmountQuery } from '@serwisgalena/api-react';
 import {
   useCurrencyCode,
   mojoToChiaLocaleString,
@@ -6,7 +6,7 @@ import {
   CardSimple,
   FormatLargeNumber,
   Tooltip,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography, Box } from '@mui/material';
 import moment from 'moment';

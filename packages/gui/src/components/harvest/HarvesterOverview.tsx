@@ -2,8 +2,8 @@ import {
   useGetBlockchainStateQuery,
   useGetHarvestersQuery,
   useGetNewFarmingInfoQuery,
-} from '@cryptomines-network/api-react';
-import { Flex, FormatBytes, FormatLargeNumber, CardSimple, useCurrencyCode } from '@cryptomines-network/core';
+} from '@serwisgalena/api-react';
+import { Flex, FormatBytes, FormatLargeNumber, CardSimple, useCurrencyCode } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';
 import BigNumber from 'bignumber.js';

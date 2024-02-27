@@ -1,4 +1,4 @@
-import { Flex, State, StateTypography, TooltipIcon } from '@cryptomines-network/core';
+import { Flex, State, StateTypography, TooltipIcon } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

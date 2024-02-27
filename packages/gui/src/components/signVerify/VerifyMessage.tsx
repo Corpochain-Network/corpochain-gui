@@ -1,4 +1,4 @@
-import { useVerifySignatureMutation } from '@cryptomines-network/api-react';
+import { useVerifySignatureMutation } from '@serwisgalena/api-react';
 import {
   AlertDialog,
   Button,
@@ -10,7 +10,7 @@ import {
   Truncate,
   useOpenDialog,
   // useShowError,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import {

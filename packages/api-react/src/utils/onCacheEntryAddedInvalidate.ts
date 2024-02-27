@@ -1,4 +1,4 @@
-import { type ServiceClassWithoutClient, type ServiceClassWithoutClientMethods } from '@cryptomines-network/api';
+import { type ServiceClassWithoutClient, type ServiceClassWithoutClientMethods } from '@serwisgalena/api';
 
 import { baseQuery } from '../api';
 

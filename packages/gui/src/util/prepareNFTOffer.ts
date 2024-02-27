@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines-network/api';
-import { store, walletApi } from '@cryptomines-network/api-react';
+import type { NFTInfo } from '@serwisgalena/api';
+import { store, walletApi } from '@serwisgalena/api-react';
 import BigNumber from 'bignumber.js';
 
 import type Driver from '../@types/Driver';

@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines-network/api';
+import { WalletType } from '@serwisgalena/api';
 import {
   Button,
   Color,
@@ -8,7 +8,7 @@ import {
   Tooltip,
   useTrans,
   ScrollbarFlex,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Add, KeyboardArrowDown, KeyboardArrowUp } from '@mui/icons-material';
 import SearchIcon from '@mui/icons-material/Search';

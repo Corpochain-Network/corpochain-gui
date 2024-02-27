@@ -1,5 +1,5 @@
-import type { NFTAttribute } from '@cryptomines-network/api';
-import { Color, CopyToClipboard, Flex, Tooltip } from '@cryptomines-network/core';
+import type { NFTAttribute } from '@serwisgalena/api';
+import { Color, CopyToClipboard, Flex, Tooltip } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { alpha, Box, Grid, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

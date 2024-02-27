@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 
-import { type NFTInfo } from '@cryptomines-network/api';
+import { type NFTInfo } from '@serwisgalena/api';
 import debug from 'debug';
 import { useState, useCallback, useMemo } from 'react';
 

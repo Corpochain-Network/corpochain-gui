@@ -1,5 +1,5 @@
-import { useGetTotalHarvestersSummaryQuery } from '@cryptomines-network/api-react';
-import { FormatLargeNumber, CardSimple } from '@cryptomines-network/core';
+import { useGetTotalHarvestersSummaryQuery } from '@serwisgalena/api-react';
+import { FormatLargeNumber, CardSimple } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

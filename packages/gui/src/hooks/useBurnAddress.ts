@@ -1,5 +1,5 @@
-import { toBech32m } from '@cryptomines-network/api';
-import { useCurrencyCode } from '@cryptomines-network/core';
+import { toBech32m } from '@serwisgalena/api';
+import { useCurrencyCode } from '@serwisgalena/core';
 import { useMemo } from 'react';
 
 export default function useBurnAddress(): string | undefined {

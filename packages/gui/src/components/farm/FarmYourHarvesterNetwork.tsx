@@ -1,7 +1,7 @@
-import type { Connection } from '@cryptomines-network/api';
-import { ServiceName } from '@cryptomines-network/api';
-import { useService, useGetHarvesterConnectionsQuery } from '@cryptomines-network/api-react';
-import { Table, FormatBytes, FormatConnectionStatus, Card } from '@cryptomines-network/core';
+import type { Connection } from '@serwisgalena/api';
+import { ServiceName } from '@serwisgalena/api';
+import { useService, useGetHarvesterConnectionsQuery } from '@serwisgalena/api-react';
+import { Table, FormatBytes, FormatConnectionStatus, Card } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Typography, Tooltip, IconButton } from '@mui/material';

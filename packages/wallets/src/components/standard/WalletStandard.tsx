@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import { Flex, MenuItem } from '@cryptomines-network/core';
-import { Offers as OffersIcon } from '@cryptomines-network/icons';
+import { WalletType } from '@serwisgalena/api';
+import { Flex, MenuItem } from '@serwisgalena/core';
+import { Offers as OffersIcon } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { Typography, ListItemIcon } from '@mui/material';
 import React from 'react';

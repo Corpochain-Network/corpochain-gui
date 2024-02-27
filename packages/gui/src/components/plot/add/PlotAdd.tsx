@@ -1,5 +1,5 @@
-import { useGetLoggedInFingerprintQuery, useGetPlottersQuery } from '@cryptomines-network/api-react';
-import { useCurrencyCode, Suspender } from '@cryptomines-network/core';
+import { useGetLoggedInFingerprintQuery, useGetPlottersQuery } from '@serwisgalena/api-react';
+import { useCurrencyCode, Suspender } from '@serwisgalena/core';
 import React from 'react';
 
 import useUnconfirmedPlotNFTs from '../../../hooks/useUnconfirmedPlotNFTs';

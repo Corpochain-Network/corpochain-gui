@@ -10,8 +10,8 @@ import {
   FormatLargeNumber,
   Link,
   useOpenDialog,
-} from '@cryptomines-network/core';
-import { Plot as PlotIcon } from '@cryptomines-network/icons';
+} from '@serwisgalena/core';
+import { Plot as PlotIcon } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { /* Link as LinkIcon, */ Payment as PaymentIcon } from '@mui/icons-material';
 import { Box, Card, CardContent, Typography, ListItemIcon } from '@mui/material';
