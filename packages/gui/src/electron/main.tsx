@@ -716,19 +716,19 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Corpochain Blockchain Wiki' }),
           click: () => {
-            openExternal('https://github.com/serwisgalena/corpochain/wiki');
+            openExternal('https:///corpochain/wiki');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
           click: () => {
-            openExternal('https://github.com/serwisgalena/corpochain/wiki/FAQ');
+            openExternal('https:///corpochain/wiki/FAQ');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Release Notes' }),
           click: () => {
-            openExternal('https://github.com/serwisgalena/corpochain/releases');
+            openExternal('https:///corpochain/releases');
           },
         },
         {
@@ -737,7 +737,7 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
           click: () => {
-            openExternal('https://github.com/serwisgalena/corpochain/issues');
+            openExternal('https:///corpochain/issues');
           },
         },
         {

@@ -54,7 +54,7 @@ export default function FarmLastAttemptedProof() {
           This table shows you the last time your farm attempted to win a block challenge.{' '}
           <Link
             target="_blank"
-            href="https://github.com/serwisgalena/corpochain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
+            href="https:///corpochain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
           >
             Learn more
           </Link>

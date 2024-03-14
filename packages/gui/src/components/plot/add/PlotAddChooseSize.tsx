@@ -88,7 +88,7 @@ export default function PlotAddChooseSize(props: Props) {
           {
             'You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. '
           }
-          <Link target="_blank" href="https://github.com/serwisgalena/corpochain/wiki/k-sizes">
+          <Link target="_blank" href="https:///corpochain/wiki/k-sizes">
             Learn more
           </Link>
         </Trans>

@@ -46,7 +46,7 @@ export default function SettingsApp(props: SettingsAppProps) {
   async function handleOpenFAQURL(): Promise<void> {
     try {
       const { shell } = window as unknown as { shell: Shell };
-      await shell.openExternal('https://github.com/serwisgalena/corpochain/wiki/FAQ');
+      await shell.openExternal('https:///corpochain/wiki/FAQ');
     } catch (error: any) {
       showError(error);
     }
@@ -55,7 +55,7 @@ export default function SettingsApp(props: SettingsAppProps) {
   async function handleOpenSendFeedbackURL(): Promise<void> {
     try {
       const { shell } = window as unknown as { shell: Shell };
-      await shell.openExternal('https://github.com/serwisgalena/corpochain/discussions/new/choose');
+      await shell.openExternal('https:///corpochain/discussions/new/choose');
     } catch (error: any) {
       showError(error);
     }

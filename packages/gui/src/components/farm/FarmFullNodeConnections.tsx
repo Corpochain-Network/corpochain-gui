@@ -78,7 +78,7 @@ export default function FarmFullNodeConnections() {
           {'The full node that your farmer is connected to is below. '}
           <Link
             target="_blank"
-            href="https://github.com/serwisgalena/corpochain/wiki/Network-Architecture"
+            href="https:///corpochain/wiki/Network-Architecture"
           >
             Learn more
           </Link>

@@ -35,7 +35,7 @@ export default function PlotOverviewHero() {
               Plots are allocated space on your hard drive used to farm and earn Corpochain. &nbsp;
               <Link
                 target="_blank"
-                href="https://github.com/serwisgalena/corpochain/wiki/Network-Architecture"
+                href="https:///corpochain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

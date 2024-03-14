@@ -30,7 +30,7 @@ export default function FarmHero() {
               transactions. This is where your farm will be once you add a plot.{' '}
               <Link
                 target="_blank"
-                href="https://github.com/serwisgalena/corpochain/wiki/Network-Architecture"
+                href="https:///corpochain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

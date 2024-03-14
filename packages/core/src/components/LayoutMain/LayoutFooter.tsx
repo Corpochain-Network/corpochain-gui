@@ -21,7 +21,7 @@ const SendFeedback = styled.a`
 async function openFAQURL(): Promise<void> {
   try {
     const { shell } = window as any;
-    await shell.openExternal('https://github.com/serwisgalena/corpochain/wiki/FAQ');
+    await shell.openExternal('https:///corpochain/wiki/FAQ');
   } catch (e) {
     console.error(e);
   }

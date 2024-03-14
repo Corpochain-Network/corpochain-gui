@@ -144,7 +144,7 @@ export default function About(props: Props) {
           )}
         </VersionsTable>
 
-        <BugReport href="https://github.com/serwisgalena/corpochain/issues" target="_blank">
+        <BugReport href="https:///corpochain/issues" target="_blank">
           Report an issue
         </BugReport>
         {'{{CSS}}'}
