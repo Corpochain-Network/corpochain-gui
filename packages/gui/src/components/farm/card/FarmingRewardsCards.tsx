@@ -101,7 +101,7 @@ function FarmingRewardsCards() {
     if (fullNodeState !== FullNodeState.SYNCED || !expectedTimeToWinSeconds || !data) {
       const state = fullNodeState === FullNodeState.SYNCHING ? State.WARNING : undefined;
 
-      return <FarmCardNotAvailable title={<Trans>Estimated daily KOP</Trans>} state={state} />;
+      return <FarmCardNotAvailable title={<Trans>Estimated daily CCH</Trans>} state={state} />;
     }
 
     const estimatedDailyXCH = new BigNumber(86_400)
@@ -111,7 +111,7 @@ function FarmingRewardsCards() {
 
     return (
       <CardSimple
-        title={<Trans>Estimated daily KOP</Trans>}
+        title={<Trans>Estimated daily CCH</Trans>}
         value={
           <>
             {mojoToChiaLocaleString(estimatedDailyXCH, locale)}
@@ -129,7 +129,7 @@ function FarmingRewardsCards() {
     if (fullNodeState !== FullNodeState.SYNCED || !expectedTimeToWinSeconds || !data) {
       const state = fullNodeState === FullNodeState.SYNCHING ? State.WARNING : undefined;
 
-      return <FarmCardNotAvailable title={<Trans>Estimated monthly KOP</Trans>} state={state} />;
+      return <FarmCardNotAvailable title={<Trans>Estimated monthly CCH</Trans>} state={state} />;
     }
 
     const estimatedMonthlyXCH = new BigNumber(86_400 * 31)
@@ -139,7 +139,7 @@ function FarmingRewardsCards() {
 
     return (
       <CardSimple
-        title={<Trans>Estimated monthly KOP</Trans>}
+        title={<Trans>Estimated monthly CCH</Trans>}
         value={
           <>
             {mojoToChiaLocaleString(estimatedMonthlyXCH, locale)}

@@ -16,7 +16,7 @@ export default function PlotNFTSelectFaucet(props: Props) {
   const openExternal = useOpenExternal();
 
   const handleClick = React.useCallback(() => {
-    if (currencyCode === 'TKOP') {
+    if (currencyCode === 'TCCH') {
       openExternal('https://testnet10-faucet.corpochain.pl/');
     } else {
       openExternal('https://faucet.corpochain.pl/');

@@ -61,7 +61,7 @@ function EstimatedEarning(props: EstimatedEarningProps) {
 
   return (
     <CardSimple
-      title={period === 'daily' ? <Trans>Estimated daily KOP</Trans> : <Trans>Estimated monthly KOP</Trans>}
+      title={period === 'daily' ? <Trans>Estimated daily CCH</Trans> : <Trans>Estimated monthly CCH</Trans>}
       value={`${expectedTimeToWin}`}
       tooltip={
         <Trans>

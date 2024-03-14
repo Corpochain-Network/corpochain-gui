@@ -39,8 +39,8 @@ describe('createDefaultValues', () => {
       });
     });
   });
-  describe('when an KOP wallet type is provided', () => {
-    it('should return an object with an KOP entry', () => {
+  describe('when an CCH wallet type is provided', () => {
+    it('should return an object with an CCH entry', () => {
       expect(createDefaultValues({ walletType: WalletType.STANDARD_WALLET })).toEqual({
         offered: {
           kop: [{ amount: '' }],

@@ -53,8 +53,8 @@ export default function ProfileAdd() {
     },
   });
 
-  const currencyCode = (useCurrencyCode() ?? 'KOP').toUpperCase();
-  const isTestnet = currencyCode === 'TKOP';
+  const currencyCode = (useCurrencyCode() ?? 'CCH').toUpperCase();
+  const isTestnet = currencyCode === 'TCCH';
   const { data: currentAddress } = useGetCurrentAddressQuery({
     walletId: 1,
   });

@@ -14,7 +14,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
     jest.clearAllMocks();
   });
 
-  describe('when offering KOP for CAT', () => {
+  describe('when offering CCH for CAT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -23,8 +23,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Corpochain',
-          symbol: 'KOP',
-          displayName: 'KOP',
+          symbol: 'CCH',
+          displayName: 'CCH',
           assetId: 'kop',
         },
         2: {
@@ -77,7 +77,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
     });
   });
 
-  describe('when offering a CAT for KOP', () => {
+  describe('when offering a CAT for CCH', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -86,8 +86,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Corpochain',
-          symbol: 'KOP',
-          displayName: 'KOP',
+          symbol: 'CCH',
+          displayName: 'CCH',
           assetId: 'kop',
         },
         2: {
@@ -143,7 +143,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
       });
     });
   });
-  describe('when offering KOP for an NFT', () => {
+  describe('when offering CCH for an NFT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -152,8 +152,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Corpochain',
-          symbol: 'KOP',
-          displayName: 'KOP',
+          symbol: 'CCH',
+          displayName: 'CCH',
           assetId: 'kop',
         },
       };
@@ -219,8 +219,8 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Corpochain',
-          symbol: 'KOP',
-          displayName: 'KOP',
+          symbol: 'CCH',
+          displayName: 'CCH',
           assetId: 'kop',
         },
         2: {

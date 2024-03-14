@@ -14,7 +14,7 @@ import { prepareNFTOfferFromNFTId } from './prepareNFTOffer';
 // Status of existing assets in offers
 // A combination of `type` and `assetId` must be unique through an array of `AssetStatusForOffer`.
 export type AssetStatusForOffer = {
-  type: 'KOP' | 'CAT' | 'SINGLETON';
+  type: 'CCH' | 'CAT' | 'SINGLETON';
   assetId: string;
   assetName?: string; // Used just for labeling
   nftId?: string;
@@ -87,22 +87,22 @@ export default async function offerBuilderDataToOffer({
       for (let k = 0; k < assetIds.length; k++) {
         const assetId = assetIds[k];
         const lockedAmount = new BigNumber(o.pending[assetId]);
-        if (assetId.toUpperCase() === 'KOP' || assetId.toUpperCase() === 'UNKNOWN') {
+        if (assetId.toUpperCase() === 'CCH' || assetId.toUpperCase() === 'UNKNOWN') {
           // 'UNKNOWN' is the diff between removals and additions of coins in this offer
           // It is assumed to be the amount of the 'fee'
-          const idx = pendingOffers.findIndex((po) => po.type === 'KOP');
+          const idx = pendingOffers.findIndex((po) => po.type === 'CCH');
           if (idx > -1) {
             pendingOffers[idx].lockedAmount = pendingOffers[idx].lockedAmount.plus(lockedAmount);
             pendingOffers[idx].relevantOffers.push(o);
             if (pendingOffers[idx].assetId.toUpperCase() !== assetId.toUpperCase()) {
-              // Now we can distinguish that we have kop spending which is only KOP, only Fee or both KOP and Fee
-              pendingOffers[idx].assetId = 'KOP+FEE';
+              // Now we can distinguish that we have kop spending which is only CCH, only Fee or both CCH and Fee
+              pendingOffers[idx].assetId = 'CCH+FEE';
             }
           } else {
             pendingOffers.push({
-              type: 'KOP',
+              type: 'CCH',
               assetId,
-              assetName: 'KOP',
+              assetName: 'CCH',
               lockedAmount,
               status: '',
               spendingAmount: new BigNumber(0),
@@ -143,7 +143,7 @@ export default async function offerBuilderDataToOffer({
     standardWallet = wallets.find((w) => w.type === WalletType.STANDARD_WALLET);
     for (let i = 0; i < pendingOffers.length; i++) {
       const po = pendingOffers[i];
-      if (po.type === 'KOP') {
+      if (po.type === 'CCH') {
         pendingXchOffer = po;
         pendingXch = po.lockedAmount;
         break;
@@ -158,7 +158,7 @@ export default async function offerBuilderDataToOffer({
   const xchTasks = offeredXch.map(async (kop) => {
     const { amount } = kop;
     if (!amount || amount === '0') {
-      throw new Error(t`Please enter an KOP amount`);
+      throw new Error(t`Please enter an CCH amount`);
     }
     if (!standardWallet || !standardWalletBalance) {
       throw new Error(t`No standard wallet found`);
@@ -170,7 +170,7 @@ export default async function offerBuilderDataToOffer({
     const spendableBalance = new BigNumber(standardWalletBalance.spendableBalance);
     const hasEnoughTotalBalance = spendableBalance.plus(pendingXch).minus(feeInMojos).gte(mojoAmount);
     if (!hasEnoughTotalBalance) {
-      throw new Error(t`Amount exceeds KOP total balance`);
+      throw new Error(t`Amount exceeds CCH total balance`);
     }
 
     if (pendingXchOffer) {
@@ -195,7 +195,7 @@ export default async function offerBuilderDataToOffer({
     const spendableBalance = new BigNumber(standardWalletBalance.spendableBalance);
     const hasEnoughTotalBalance = spendableBalance.gte(feeInMojos);
     if (!hasEnoughTotalBalance) {
-      throw new Error(t`Fee exceeds KOP total balance`);
+      throw new Error(t`Fee exceeds CCH total balance`);
     }
     if (pendingXchOffer) {
       pendingXchOffer.spendingAmount = feeInMojos;
@@ -294,7 +294,7 @@ export default async function offerBuilderDataToOffer({
     }
 
     if (!amount) {
-      throw new Error(t`Please enter an KOP amount`);
+      throw new Error(t`Please enter an CCH amount`);
     }
 
     const wallet = wallets.find((w) => w.type === WalletType.STANDARD_WALLET);

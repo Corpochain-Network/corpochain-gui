@@ -29,7 +29,7 @@ const UrlBuilderMapping = {
 
 export default function useViewNFTOnExplorer() {
   const openExternal = useOpenExternal();
-  const testnet = useCurrencyCode() === 'TKOP';
+  const testnet = useCurrencyCode() === 'TCCH';
 
   function handleViewNFTOnExplorer(nft: NFTInfo, explorer: NFTExplorer) {
     const urlBuilder = UrlBuilderMapping[explorer];
