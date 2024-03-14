@@ -1,7 +1,11 @@
-import { TransactionType } from '@cryptomines-network/api';
-import type { Transaction } from '@cryptomines-network/api';
-import { useGetAutoClaimQuery, useGetTimestampForHeightQuery, useGetHeightInfoQuery } from '@cryptomines-network/api-react';
-import { useTrans, Button } from '@cryptomines-network/core';
+import { TransactionType } from '@serwisgalena/api';
+import type { Transaction } from '@serwisgalena/api';
+import {
+  useGetAutoClaimQuery,
+  useGetTimestampForHeightQuery,
+  useGetHeightInfoQuery,
+} from '@serwisgalena/api-react';
+import { useTrans, Button } from '@serwisgalena/core';
 import { defineMessage } from '@lingui/macro';
 import { AccessTime as AccessTimeIcon } from '@mui/icons-material';
 import { Chip } from '@mui/material';

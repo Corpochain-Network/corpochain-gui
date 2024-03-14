@@ -1,5 +1,5 @@
-import { Color, Flex } from '@cryptomines-network/core';
-import { WalletGraphTooltip } from '@cryptomines-network/wallets';
+import { Color, Flex } from '@serwisgalena/core';
+import { WalletGraphTooltip } from '@serwisgalena/wallets';
 import { t } from '@lingui/macro';
 import { alpha, Box, Typography } from '@mui/material';
 import React, { ReactNode } from 'react';
@@ -41,8 +41,8 @@ function aggregatePoints(points, hours = 2, totalHours = 24) {
 function LinearGradient() {
   return (
     <linearGradient id="graph-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stopColor={alpha(Color.Green[500], 0.4)} />
-      <stop offset="100%" stopColor={alpha(Color.Green[500], 0)} />
+      <stop offset="0%" stopColor={alpha(Color.Purple[500], 0.4)} />
+      <stop offset="100%" stopColor={alpha(Color.Purple[500], 0)} />
     </linearGradient>
   );
 }
@@ -92,7 +92,7 @@ export default function PlotNFTGraph(props: PlotNFTGraphProps) {
               interpolation="monotoneX"
               style={{
                 data: {
-                  stroke: Color.Green[500],
+                  stroke: Color.Purple[500],
                   strokeWidth: 2,
                   strokeLinecap: 'round',
                   fill: 'url(#graph-gradient)',

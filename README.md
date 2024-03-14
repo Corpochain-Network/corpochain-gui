@@ -1,1 +1,1 @@
-# cryptomines-blockchain-gui
+# corpochain-gui

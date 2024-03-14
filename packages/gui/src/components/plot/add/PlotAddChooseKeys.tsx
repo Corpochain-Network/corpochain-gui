@@ -1,6 +1,6 @@
-import { toBech32m } from '@cryptomines-network/api';
-import { useGetKeysForPlottingQuery } from '@cryptomines-network/api-react';
-import { CardStep, TextField, Button, Checkbox } from '@cryptomines-network/core';
+import { toBech32m } from '@serwisgalena/api';
+import { useGetKeysForPlottingQuery } from '@serwisgalena/api-react';
+import { CardStep, TextField, Button, Checkbox } from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { Grid, FormControl, Typography, FormControlLabel, ButtonGroup } from '@mui/material';
 import React from 'react';

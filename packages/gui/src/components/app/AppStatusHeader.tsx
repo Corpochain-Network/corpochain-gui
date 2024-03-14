@@ -1,5 +1,5 @@
-import { Color, Flex, useMode, Mode, useDarkMode, useAuth, Tooltip } from '@cryptomines-network/core';
-import { WalletConnections, WalletStatus, WalletReceiveAddressField } from '@cryptomines-network/wallets';
+import { Color, Flex, useMode, Mode, useDarkMode, useAuth, Tooltip } from '@serwisgalena/core';
+import { WalletConnections, WalletStatus, WalletReceiveAddressField } from '@serwisgalena/wallets';
 import { Trans } from '@lingui/macro';
 import { Logout as LogoutIcon } from '@mui/icons-material';
 import { Box, ButtonGroup, Button, Popover, PopoverProps, IconButton } from '@mui/material';

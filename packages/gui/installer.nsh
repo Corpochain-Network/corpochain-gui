@@ -81,14 +81,14 @@ Function checkIsChiaRunning
   StrCpy $AlreadyAlerted 0
   loop:
     ClearErrors
-    ; Check if the main Cryptomines.exe process is running
+    ; Check if the main Corpochain.exe process is running
     ${nsProcess::FindProcess} "chia.exe" $IsChiaProcessRunning
     ${If} $IsChiaProcessRunning == 0
       ${If} $AlreadyAlerted == 0
         StrCpy $AlreadyAlerted 1
-        MessageBox MB_OKCANCEL|MB_ICONEXCLAMATION "Installation cannot continue while Cryptomines is still running. Please exit the Cryptomines application and then click OK to proceed." IDOK retry IDCANCEL exit
+        MessageBox MB_OKCANCEL|MB_ICONEXCLAMATION "Installation cannot continue while Corpochain is still running. Please exit the Corpochain application and then click OK to proceed." IDOK retry IDCANCEL exit
       ${Else}
-        MessageBox MB_OKCANCEL|MB_ICONEXCLAMATION "Cryptomines is still running. Please exit the Cryptomines application and then click OK to proceed." IDOK retry IDCANCEL exit
+        MessageBox MB_OKCANCEL|MB_ICONEXCLAMATION "Corpochain is still running. Please exit the Corpochain application and then click OK to proceed." IDOK retry IDCANCEL exit
       ${EndIf}
     ${EndIf}
 
@@ -125,7 +125,7 @@ Function checkIsChiaRunning
   endLoop:
     ; If any processes are running, show a message box with their names
     ${If} $R3 != ""
-      MessageBox MB_OKCANCEL|MB_ICONEXCLAMATION "The following Cryptomines processes are still running. Please stop all Cryptomines services and then click OK to proceed.$\n$\nRunning processes:$\n$R3" IDOK retry IDCANCEL exit
+      MessageBox MB_OKCANCEL|MB_ICONEXCLAMATION "The following Corpochain processes are still running. Please stop all Corpochain services and then click OK to proceed.$\n$\nRunning processes:$\n$R3" IDOK retry IDCANCEL exit
     ${Else}
       Goto done
     ${EndIf}
@@ -166,12 +166,12 @@ Var NextButton
 Page custom detectOldChiaVersion detectOldChiaVersionPageLeave
 Page custom finish finishLeave
 
-; Add a page offering to uninstall an older build installed into the cryptomines-blockchain dir
+; Add a page offering to uninstall an older build installed into the corpochain dir
 Function detectOldChiaVersion
-  ; Check the registry for old cryptomines-blockchain installer keys
-  ReadRegStr $ChiaSquirrelInstallLocation HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\cryptomines-blockchain" "InstallLocation"
-  ReadRegStr $ChiaSquirrelInstallVersion HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\cryptomines-blockchain" "DisplayVersion"
-  ReadRegStr $ChiaSquirrelUninstaller HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\cryptomines-blockchain" "QuietUninstallString"
+  ; Check the registry for old corpochain installer keys
+  ReadRegStr $ChiaSquirrelInstallLocation HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\corpochain" "InstallLocation"
+  ReadRegStr $ChiaSquirrelInstallVersion HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\corpochain" "DisplayVersion"
+  ReadRegStr $ChiaSquirrelUninstaller HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\corpochain" "QuietUninstallString"
 
   StrCpy $UninstallChiaSquirrelInstall ${BST_UNCHECKED} ; Initialize to unchecked so that a silent install skips uninstalling
 
@@ -197,12 +197,12 @@ Function detectOldChiaVersion
     Abort
   ${EndIf}
 
-  !insertmacro MUI_HEADER_TEXT "Uninstall Old Version" "Would you like to uninstall the old version of Cryptomines Blockchain?"
+  !insertmacro MUI_HEADER_TEXT "Uninstall Old Version" "Would you like to uninstall the old version of Corpochain Blockchain?"
 
-  ${NSD_CreateLabel} 0 35 100% 12u "Found Cryptomines Blockchain $ChiaSquirrelInstallVersion installed in an old location:"
+  ${NSD_CreateLabel} 0 35 100% 12u "Found Corpochain Blockchain $ChiaSquirrelInstallVersion installed in an old location:"
   ${NSD_CreateLabel} 12 57 100% 12u "$ChiaSquirrelInstallLocation"
 
-  ${NSD_CreateCheckBox} 12 81 100% 12u "Uninstall Cryptomines Blockchain $ChiaSquirrelInstallVersion"
+  ${NSD_CreateCheckBox} 12 81 100% 12u "Uninstall Corpochain Blockchain $ChiaSquirrelInstallVersion"
   Pop $CheckboxUninstall
   ${NSD_SetState} $CheckboxUninstall $UninstallChiaSquirrelInstall
   ${NSD_OnClick} $CheckboxUninstall SetUninstall
@@ -234,14 +234,14 @@ Function finish
     Abort
   ${EndIf}
 
-  ${NSD_CreateCheckbox} 0 40% 100% 10% "Launch Cryptomines"
+  ${NSD_CreateCheckbox} 0 40% 100% 10% "Launch Corpochain"
   Pop $CheckboxLaunchOnExit
   ${NSD_SetState} $CheckboxLaunchOnExit ${BST_CHECKED}
   ${NSD_OnClick} $CheckboxLaunchOnExit SetLaunchOnExit
   StrCpy $LaunchOnExit 1
   
   ${NSD_CreateLabel} 0 65% 100% 10% "Advanced Options:"
-  ${NSD_CreateCheckbox} 5% 75% 100% 10% "Add Cryptomines Command Line executable to PATH"
+  ${NSD_CreateCheckbox} 5% 75% 100% 10% "Add Corpochain Command Line executable to PATH"
   Pop $CheckboxAddToPath
   ${NSD_SetState} $CheckboxAddToPath ${BST_UNCHECKED}
   ${NSD_OnClick} $CheckboxAddToPath SetAddToPath
@@ -249,7 +249,7 @@ Function finish
   GetDlgItem $NextButton $HWNDPARENT 1 ; 1 = Next button
   GetDlgItem $BackButton $HWNDPARENT 3 ; 3 = Back button
 
-  ${NSD_CreateLabel} 0 35 100% 12u "Cryptomines has been installed successfully!"
+  ${NSD_CreateLabel} 0 35 100% 12u "Corpochain has been installed successfully!"
   EnableWindow $BackButton 0 ; Disable the Back button
   SendMessage $NextButton ${WM_SETTEXT} 0 "STR:Finish" ; Button title is "Close" by default. Update it here.
 

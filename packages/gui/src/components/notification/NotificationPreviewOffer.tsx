@@ -1,4 +1,4 @@
-import { Loading } from '@cryptomines-network/core';
+import { Loading } from '@serwisgalena/core';
 import React, { useMemo } from 'react';
 
 import Notification from '../../@types/Notification';

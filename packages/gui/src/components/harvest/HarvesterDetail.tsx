@@ -1,5 +1,5 @@
-import { HarvesterInfo, LatencyData } from '@cryptomines-network/api';
-import { Flex, FormatBytes, Tooltip, TooltipIcon } from '@cryptomines-network/core';
+import { HarvesterInfo, LatencyData } from '@serwisgalena/api';
+import { Flex, FormatBytes, Tooltip, TooltipIcon } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Paper, Typography, LinearProgress, Chip } from '@mui/material';
 import BigNumber from 'bignumber.js';

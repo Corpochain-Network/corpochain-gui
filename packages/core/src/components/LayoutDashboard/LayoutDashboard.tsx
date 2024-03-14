@@ -1,4 +1,4 @@
-import { useGetLoggedInFingerprintQuery, useGetKeyQuery, useFingerprintSettings } from '@cryptomines-network/api-react';
+import { useGetLoggedInFingerprintQuery, useGetKeyQuery, useFingerprintSettings } from '@serwisgalena/api-react';
 import { Trans } from '@lingui/macro';
 import { Edit as EditIcon } from '@mui/icons-material';
 import { Box, AppBar, Toolbar, Drawer, IconButton, Typography, CircularProgress, Button } from '@mui/material';
@@ -79,7 +79,7 @@ export default function LayoutDashboard(props: LayoutDashboardProps) {
   const isDark = theme.palette.mode === 'dark';
   const [walletKeyTheme, setWalletKeyTheme] = useFingerprintSettings<WalletKeyTheme>(fingerprint, 'walletKeyTheme', {
     emoji: ``,
-    color: 'green',
+    color: 'purple',
   });
   const { appVersion, latestVersion, newVersionAvailable, isVersionSkipped, addVersionToSkip, downloadUrl, blogUrl } =
     useGetLatestVersionFromWebsite();

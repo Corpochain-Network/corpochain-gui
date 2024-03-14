@@ -1,5 +1,5 @@
-import api, { store } from '@cryptomines-network/api-react';
-import { getWalletSyncingStatus } from '@cryptomines-network/wallets';
+import api, { store } from '@serwisgalena/api-react';
+import { getWalletSyncingStatus } from '@serwisgalena/wallets';
 
 import SyncingStatus from '../constants/SyncingStatus';
 

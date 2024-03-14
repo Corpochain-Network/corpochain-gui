@@ -1,7 +1,7 @@
-import type { Connection } from '@cryptomines-network/api';
-import { ServiceName } from '@cryptomines-network/api';
-import { useGetFarmerFullNodeConnectionsQuery, useService } from '@cryptomines-network/api-react';
-import { Table, Card, FormatBytes, FormatConnectionStatus } from '@cryptomines-network/core';
+import type { Connection } from '@serwisgalena/api';
+import { ServiceName } from '@serwisgalena/api';
+import { useGetFarmerFullNodeConnectionsQuery, useService } from '@serwisgalena/api-react';
+import { Table, Card, FormatBytes, FormatConnectionStatus } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Link, Typography, Tooltip, IconButton } from '@mui/material';
@@ -76,7 +76,10 @@ export default function FarmFullNodeConnections() {
       tooltip={
         <Trans>
           {'The full node that your farmer is connected to is below. '}
-          <Link target="_blank" href="https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/Network-Architecture">
+          <Link
+            target="_blank"
+            href="https://github.com/serwisgalena/corpochain/wiki/Network-Architecture"
+          >
             Learn more
           </Link>
         </Trans>

@@ -1,4 +1,4 @@
-import { useGetFeeEstimateQuery } from '@cryptomines-network/api-react';
+import { useGetFeeEstimateQuery } from '@serwisgalena/api-react';
 import { Trans, t } from '@lingui/macro';
 import {
   Box,
@@ -135,7 +135,7 @@ function CountdownBar({ startTime, refreshSeconds }: { startTime: number; refres
   const fillerStyle = {
     height: '100%',
     width: `${currentProgress}%`,
-    backgroundColor: Color.Green[600],
+    backgroundColor: Color.Purple[600],
     borderRadius: 'inherit',
     // textAlign: 'right',
   };

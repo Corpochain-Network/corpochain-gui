@@ -1,6 +1,6 @@
 // eslint-ignore-file - in progress
-import type { NFTInfo } from '@cryptomines-network/api';
-import { useLocalStorage } from '@cryptomines-network/api-react';
+import type { NFTInfo } from '@serwisgalena/api';
+import { useLocalStorage } from '@serwisgalena/api-react';
 import {
   Button,
   Color,
@@ -11,7 +11,7 @@ import {
   usePersistState,
   Mute,
   ScrollbarVirtuoso,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { t, Trans } from '@lingui/macro';
 import { FilterList as FilterListIcon, LibraryAddCheck as LibraryAddCheckIcon } from '@mui/icons-material';
 import {

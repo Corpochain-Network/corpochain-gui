@@ -1,5 +1,5 @@
-import { OfferTradeRecord, toBech32m } from '@cryptomines-network/api';
-import { useCancelOfferMutation, useGetWalletsQuery } from '@cryptomines-network/api-react';
+import { OfferTradeRecord, toBech32m } from '@serwisgalena/api';
+import { useCancelOfferMutation, useGetWalletsQuery } from '@serwisgalena/api-react';
 import {
   Button,
   Card,
@@ -15,7 +15,7 @@ import {
   Tooltip,
   LayoutDashboardSub,
   MenuItem,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Cancel, GetApp as Download, Info, Reply as Share, Visibility } from '@mui/icons-material';
 import { Box, Chip, Grid, ListItemIcon, Typography } from '@mui/material';
@@ -326,8 +326,8 @@ export function OfferManager() {
                       </Typography>
                       <Typography variant="body1" color="textSecondary">
                         <Trans>
-                          Create a file that you can use to trade KOP, Cryptomines Asset Tokens, or NFTs with no counter-party
-                          risk.
+                          Create a file that you can use to trade KOP, Corpochain Asset Tokens, or NFTs with no
+                          counter-party risk.
                         </Trans>
                       </Typography>
                     </Flex>

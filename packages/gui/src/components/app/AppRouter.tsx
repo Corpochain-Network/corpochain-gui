@@ -1,5 +1,5 @@
-import { SelectKey, LayoutHero, LayoutDashboard, Mode, useMode } from '@cryptomines-network/core';
-import { WalletAdd, WalletImport, Wallets } from '@cryptomines-network/wallets';
+import { SelectKey, LayoutHero, LayoutDashboard, Mode, useMode } from '@serwisgalena/core';
+import { WalletAdd, WalletImport, Wallets } from '@serwisgalena/wallets';
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 

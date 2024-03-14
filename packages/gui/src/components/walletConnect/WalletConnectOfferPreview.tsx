@@ -1,4 +1,4 @@
-import { Button, Flex, useOpenDialog, chiaToMojo } from '@cryptomines-network/core';
+import { Button, Flex, useOpenDialog, chiaToMojo } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import BigNumber from 'bignumber.js';

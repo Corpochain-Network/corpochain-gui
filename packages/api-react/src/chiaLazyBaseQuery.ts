@@ -1,4 +1,4 @@
-import Client from '@cryptomines-network/api';
+import Client from '@serwisgalena/api';
 
 import type ServiceConstructor from './@types/ServiceConstructor';
 import { selectApiConfig } from './slices/api';

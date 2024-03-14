@@ -1,5 +1,5 @@
-import { HarvesterInfo } from '@cryptomines-network/api';
-import { Flex } from '@cryptomines-network/core';
+import { HarvesterInfo } from '@serwisgalena/api';
+import { Flex } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Paper, Typography } from '@mui/material';
 import * as React from 'react';

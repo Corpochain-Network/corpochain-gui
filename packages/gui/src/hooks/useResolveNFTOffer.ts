@@ -1,5 +1,5 @@
-import { toBech32m, OfferSummaryRecord } from '@cryptomines-network/api';
-import { useSignMessageByIdMutation } from '@cryptomines-network/api-react';
+import { toBech32m, OfferSummaryRecord } from '@serwisgalena/api';
+import { useSignMessageByIdMutation } from '@serwisgalena/api-react';
 import { useCallback, useMemo, useState } from 'react';
 
 type NFTsByOfferSide = {

@@ -1,4 +1,8 @@
-import { usePwAbsorbRewardsMutation, useGetPlotNFTsQuery, useGetCurrentAddressQuery } from '@cryptomines-network/api-react';
+import {
+  usePwAbsorbRewardsMutation,
+  useGetPlotNFTsQuery,
+  useGetCurrentAddressQuery,
+} from '@serwisgalena/api-react';
 import {
   UnitFormat,
   CardStep,
@@ -12,7 +16,7 @@ import {
   mojoToChiaLocaleString,
   chiaToMojo,
   Back,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { ChevronRight as ChevronRightIcon } from '@mui/icons-material';
 import { Grid, Typography } from '@mui/material';

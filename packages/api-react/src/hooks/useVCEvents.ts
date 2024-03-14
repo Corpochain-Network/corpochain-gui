@@ -1,4 +1,4 @@
-import { VC } from '@cryptomines-network/api';
+import { VC } from '@serwisgalena/api';
 
 import useSubscribeToEvent from './useSubscribeToEvent';
 

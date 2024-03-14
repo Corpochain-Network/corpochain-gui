@@ -1,4 +1,4 @@
-import { ModeProvider, Persist } from '@cryptomines-network/core';
+import { ModeProvider, Persist } from '@serwisgalena/core';
 import React from 'react';
 
 import AppRouter from './AppRouter';

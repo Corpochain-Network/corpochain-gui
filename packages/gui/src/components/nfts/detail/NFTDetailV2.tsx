@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines-network/api';
-import { Flex, LayoutDashboardSub, useOpenDialog, Tooltip } from '@cryptomines-network/core';
+import type { NFTInfo } from '@serwisgalena/api';
+import { Flex, LayoutDashboardSub, useOpenDialog, Tooltip } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import {
   MoreVert,

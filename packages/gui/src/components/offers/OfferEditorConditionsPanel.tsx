@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
-import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
+import type { Wallet } from '@serwisgalena/api';
+import { WalletType } from '@serwisgalena/api';
+import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@serwisgalena/api-react';
 import {
   Amount,
   Fee,
@@ -11,7 +11,7 @@ import {
   mojoToCAT,
   mojoToCATLocaleString,
   useLocale,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Add, Remove } from '@mui/icons-material';
 import { Box, Divider, IconButton, Typography } from '@mui/material';

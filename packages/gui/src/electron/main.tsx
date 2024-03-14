@@ -15,7 +15,7 @@ import fs from 'fs';
 import path from 'path';
 import url from 'url';
 
-import { NFTInfo } from '@cryptomines-network/api';
+import { NFTInfo } from '@serwisgalena/api';
 import { initialize, enable } from '@electron/remote/main';
 import axios from 'axios';
 import windowStateKeeper from 'electron-window-state';
@@ -27,7 +27,7 @@ import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 // handle setupevents as quickly as possible
 import '../config/env';
 import packageJson from '../../package.json';
-import AppIcon from '../assets/img/cryptomines64x64.png';
+import AppIcon from '../assets/img/corpochain64x64.png';
 import About from '../components/about/About';
 import { i18n } from '../config/locales';
 import chiaEnvironment from '../util/chiaEnvironment';
@@ -714,21 +714,21 @@ function getMenuTemplate() {
       role: 'help',
       submenu: [
         {
-          label: i18n._(/* i18n */ { id: 'Cryptomines Blockchain Wiki' }),
+          label: i18n._(/* i18n */ { id: 'Corpochain Blockchain Wiki' }),
           click: () => {
-            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki');
+            openExternal('https://github.com/serwisgalena/corpochain/wiki');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
           click: () => {
-            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/FAQ');
+            openExternal('https://github.com/serwisgalena/corpochain/wiki/FAQ');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Release Notes' }),
           click: () => {
-            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/releases');
+            openExternal('https://github.com/serwisgalena/corpochain/releases');
           },
         },
         {
@@ -737,7 +737,7 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
           click: () => {
-            openExternal('https://github.com/Cryptomines-Network/cryptomines-blockchain/issues');
+            openExternal('https://github.com/serwisgalena/corpochain/issues');
           },
         },
         {
@@ -751,12 +751,12 @@ function getMenuTemplate() {
   ];
 
   if (process.platform === 'darwin') {
-    // Cryptomines Blockchain menu (Mac)
+    // Corpochain Blockchain menu (Mac)
     template.unshift({
-      label: i18n._(/* i18n */ { id: 'Cryptomines' }),
+      label: i18n._(/* i18n */ { id: 'Corpochain' }),
       submenu: [
         {
-          label: i18n._(/* i18n */ { id: 'About Cryptomines Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Corpochain Blockchain' }),
           click: () => {
             openAbout();
           },
@@ -843,11 +843,11 @@ function getMenuTemplate() {
         type: 'separator',
       },
       {
-        label: i18n._(/* i18n */ { id: 'About Cryptomines Blockchain' }),
+        label: i18n._(/* i18n */ { id: 'About Corpochain Blockchain' }),
         click() {
           openAbout();
         },
-      },
+      }
     );
   }
 

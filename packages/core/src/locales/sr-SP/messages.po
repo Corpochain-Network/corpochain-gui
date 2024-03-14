@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sr_SP\n"
-"Project-Id-Version: cryptomines-blockchain\n"
+"Project-Id-Version: corpochain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-10-24 18:14\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Cyrillic)\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: cryptomines-blockchain\n"
+"X-Crowdin-Project: corpochain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sr\n"
 "X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
@@ -35,7 +35,7 @@ msgid "{minPassphraseLength, plural, one {Passphrases must be at least # charact
 msgstr ""
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
-msgid "A new version of Cryptomines is available!"
+msgid "A new version of Corpochain is available!"
 msgstr ""
 
 #: src/screens/SelectKey/EmojiAndColorPicker.tsx:258
@@ -79,11 +79,11 @@ msgid "Checking for updates..."
 msgstr ""
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
-msgid "Cryptomines {latestVersion} is currently the latest version available."
+msgid "Corpochain {latestVersion} is currently the latest version available."
 msgstr ""
 
 #: src/components/Settings/SettingsApp.tsx:125
-msgid "Cryptomines Application Version:"
+msgid "Corpochain Application Version:"
 msgstr ""
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
@@ -113,7 +113,7 @@ msgid "Create a new wallet key"
 msgstr ""
 
 #: src/screens/SelectKey/SelectKey.tsx:262
-msgid "Create a new wallet key to get started with Cryptomines."
+msgid "Create a new wallet key to get started with Corpochain."
 msgstr ""
 
 #: src/screens/SelectKey/SelectKey.tsx:175
@@ -544,8 +544,8 @@ msgid "Wallet Keys"
 msgstr ""
 
 #: src/screens/SelectKey/SelectKey.tsx:142
-#~ msgid "Welcome to Cryptomines. Please log in with an existing key, or create a new key."
-#~ msgstr "Добродошли у Cryptomines. Пријави се помоћу постојећег кључа или креирај нови кључ."
+#~ msgid "Welcome to Corpochain. Please log in with an existing key, or create a new key."
+#~ msgstr "Добродошли у Corpochain. Пријави се помоћу постојећег кључа или креирај нови кључ."
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:177
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66

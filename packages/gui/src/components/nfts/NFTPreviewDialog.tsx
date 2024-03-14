@@ -1,4 +1,4 @@
-import { Flex } from '@cryptomines-network/core';
+import { Flex } from '@serwisgalena/core';
 import { Dialog, Paper } from '@mui/material';
 import { styled } from '@mui/styles';
 import React from 'react';

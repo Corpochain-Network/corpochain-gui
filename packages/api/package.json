@@ -1,8 +1,8 @@
 {
-  "name": "@cryptomines-network/api",
-  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
-  "description": "Cryptomines API Library",
-  "productName": "Cryptomines Blockchain",
+  "name": "@serwisgalena/api",
+  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://corpochain.pl/)",
+  "description": "Corpochain API Library",
+  "productName": "Corpochain Blockchain",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"

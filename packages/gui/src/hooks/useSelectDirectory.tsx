@@ -1,4 +1,4 @@
-import { AlertDialog, useOpenDialog } from '@cryptomines-network/core';
+import { AlertDialog, useOpenDialog } from '@serwisgalena/core';
 import { dialog } from '@electron/remote';
 import { Trans } from '@lingui/macro';
 import isElectron from 'is-electron';

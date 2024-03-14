@@ -1,5 +1,5 @@
-import { BlockchainState, ServiceName } from '@cryptomines-network/api';
-import { useService } from '@cryptomines-network/api-react';
+import { BlockchainState, ServiceName } from '@serwisgalena/api';
+import { useService } from '@serwisgalena/api-react';
 
 import FarmerStatus from '../constants/FarmerStatus';
 import FullNodeState from '../constants/FullNodeState';

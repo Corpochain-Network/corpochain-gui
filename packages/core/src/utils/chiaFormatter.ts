@@ -4,7 +4,7 @@ import type Unit from '../constants/Unit';
 import UnitValue from '../constants/UnitValue';
 import bigNumberToLocaleString from './bigNumberToLocaleString';
 
-class Cryptomines {
+class Corpochain {
   readonly value: BigNumber;
 
   readonly unit: Unit;
@@ -23,7 +23,7 @@ class Cryptomines {
     const amountInFromUnit = this.value.times(fromUnitValue.toString());
     const newValue = amountInFromUnit.div(toUnitValue.toString());
 
-    return new Cryptomines(newValue, newUnit);
+    return new Corpochain(newValue, newUnit);
   }
 
   toFixed(decimals: number): string {
@@ -44,5 +44,5 @@ class Cryptomines {
 }
 
 export default function chiaFormatter(value: number | string | BigNumber, unit: Unit) {
-  return new Cryptomines(value, unit);
+  return new Corpochain(value, unit);
 }

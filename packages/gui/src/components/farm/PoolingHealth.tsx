@@ -2,8 +2,8 @@ import {
   useGetPoolStateQuery,
   useGetPartialStatsOffsetQuery,
   useResetPartialStatsMutation,
-} from '@cryptomines-network/api-react';
-import { Flex, StateIndicator, State, Tooltip } from '@cryptomines-network/core';
+} from '@serwisgalena/api-react';
+import { Flex, StateIndicator, State, Tooltip } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Paper, Typography, CircularProgress, Button } from '@mui/material';
 import React from 'react';

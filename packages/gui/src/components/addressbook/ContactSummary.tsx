@@ -1,4 +1,4 @@
-// import { useGetNFTInfoQuery } from '@cryptomines-network/api-react';
+// import { useGetNFTInfoQuery } from '@serwisgalena/api-react';
 import {
   AddressBookContext,
   ConfirmDialog,
@@ -7,7 +7,7 @@ import {
   MenuItem,
   More,
   useOpenDialog,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Delete, Edit } from '@mui/icons-material';
 import { InputAdornment, ListItemIcon, TextField, Typography } from '@mui/material';

@@ -1,5 +1,5 @@
-import { useGetCurrentAddressQuery } from '@cryptomines-network/api-react';
-import { CopyToClipboard, Flex, Loading, TextField } from '@cryptomines-network/core';
+import { useGetCurrentAddressQuery } from '@serwisgalena/api-react';
+import { CopyToClipboard, Flex, Loading, TextField } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Grid, InputAdornment } from '@mui/material';
 import React, { useEffect } from 'react';

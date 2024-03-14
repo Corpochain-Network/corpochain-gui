@@ -1,4 +1,4 @@
-import { Card, Flex, Loading } from '@cryptomines-network/core';
+import { Card, Flex, Loading } from '@serwisgalena/core';
 import { Typography } from '@mui/material';
 import React, { useState, ReactNode } from 'react';
 import styled from 'styled-components';

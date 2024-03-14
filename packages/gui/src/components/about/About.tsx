@@ -1,8 +1,7 @@
-
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
-import icon from '../../assets/img/cryptomines_circle.svg';
+import icon from '../../assets/img/corpochain_circle.svg';
 
 const GlobalStyle = createGlobalStyle`
   body,
@@ -73,7 +72,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://cryptominesblockchain.pl';
+const url = 'https://corpochain.pl';
 
 type Props = {
   version: string;
@@ -145,7 +144,7 @@ export default function About(props: Props) {
           )}
         </VersionsTable>
 
-        <BugReport href="https://github.com/Cryptomines-Network/cryptomines-blockchain/issues" target="_blank">
+        <BugReport href="https://github.com/serwisgalena/corpochain/issues" target="_blank">
           Report an issue
         </BugReport>
         {'{{CSS}}'}

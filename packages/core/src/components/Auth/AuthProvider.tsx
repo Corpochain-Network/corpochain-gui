@@ -1,4 +1,4 @@
-import { useClearCache, useLogInMutation, useGetLoggedInFingerprintQuery } from '@cryptomines-network/api-react';
+import { useClearCache, useLogInMutation, useGetLoggedInFingerprintQuery } from '@serwisgalena/api-react';
 import React, { useMemo, useCallback, useRef, useState, useEffect, createContext, type ReactNode } from 'react';
 
 export const AuthContext = createContext<

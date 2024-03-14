@@ -1,4 +1,4 @@
-import { toBech32m } from '@cryptomines-network/api';
+import { toBech32m } from '@serwisgalena/api';
 import {
   Card,
   Flex,
@@ -10,8 +10,8 @@ import {
   useCurrencyCode,
   useOpenDialog,
   ConfirmDialog,
-} from '@cryptomines-network/core';
-import { Offers as OffersIcon } from '@cryptomines-network/icons';
+} from '@serwisgalena/core';
+import { Offers as OffersIcon } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React, { useMemo, type ReactNode } from 'react';

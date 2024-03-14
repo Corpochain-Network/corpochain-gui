@@ -1,4 +1,4 @@
-import { type ServiceNameValue } from '@cryptomines-network/api';
+import { type ServiceNameValue } from '@serwisgalena/api';
 import { ReactNode } from 'react';
 
 import type WalletConnectCommandParam from './WalletConnectCommandParam';

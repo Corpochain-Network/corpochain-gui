@@ -1,5 +1,5 @@
-import { Daemon, optionsForPlotter, defaultsForPlotter, PlotterName } from '@cryptomines-network/api';
-import type { Plotter, PlotterMap, PlotterApi } from '@cryptomines-network/api';
+import { Daemon, optionsForPlotter, defaultsForPlotter, PlotterName } from '@serwisgalena/api';
+import type { Plotter, PlotterMap, PlotterApi } from '@serwisgalena/api';
 
 import api, { baseQuery } from '../api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';

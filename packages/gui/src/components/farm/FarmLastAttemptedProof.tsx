@@ -1,5 +1,5 @@
-import { useGetNewFarmingInfoQuery } from '@cryptomines-network/api-react';
-import { Link, Table, Card } from '@cryptomines-network/core';
+import { useGetNewFarmingInfoQuery } from '@serwisgalena/api-react';
+import { Link, Table, Card } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import React from 'react';
@@ -54,7 +54,7 @@ export default function FarmLastAttemptedProof() {
           This table shows you the last time your farm attempted to win a block challenge.{' '}
           <Link
             target="_blank"
-            href="https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
+            href="https://github.com/serwisgalena/corpochain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
           >
             Learn more
           </Link>

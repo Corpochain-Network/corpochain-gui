@@ -1,4 +1,4 @@
-import { Button, Flex, Suspender } from '@cryptomines-network/core';
+import { Button, Flex, Suspender } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';
 import React from 'react';

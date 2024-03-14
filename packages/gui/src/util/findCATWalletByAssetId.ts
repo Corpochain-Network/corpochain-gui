@@ -1,5 +1,5 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { WalletType } from '@cryptomines-network/api';
+import type { Wallet } from '@serwisgalena/api';
+import { WalletType } from '@serwisgalena/api';
 
 export default function findCATWalletByAssetId(wallets: Wallet[], assetId: string) {
   return wallets.find(

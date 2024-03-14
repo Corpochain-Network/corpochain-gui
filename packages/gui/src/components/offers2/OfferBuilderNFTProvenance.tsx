@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines-network/api';
-import { Button, Flex, TooltipIcon } from '@cryptomines-network/core';
+import type { NFTInfo } from '@serwisgalena/api';
+import { Button, Flex, TooltipIcon } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

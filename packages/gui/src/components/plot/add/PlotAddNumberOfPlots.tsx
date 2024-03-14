@@ -7,7 +7,7 @@ import {
   Checkbox,
   TooltipIcon,
   Select,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import {
   Grid,

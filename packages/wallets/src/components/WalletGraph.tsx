@@ -1,7 +1,7 @@
-import { TransactionType, WalletType } from '@cryptomines-network/api';
-import type { Transaction } from '@cryptomines-network/api';
-import { useGetWalletBalanceQuery } from '@cryptomines-network/api-react';
-import { Color, mojoToChia, mojoToCAT, blockHeightToTimestamp } from '@cryptomines-network/core';
+import { TransactionType, WalletType } from '@serwisgalena/api';
+import type { Transaction } from '@serwisgalena/api';
+import { useGetWalletBalanceQuery } from '@serwisgalena/api-react';
+import { Color, mojoToChia, mojoToCAT, blockHeightToTimestamp } from '@serwisgalena/core';
 import { alpha } from '@mui/material';
 import BigNumber from 'bignumber.js';
 import { orderBy, groupBy, map } from 'lodash';
@@ -132,8 +132,8 @@ function prepareGraphPoints(
 function LinearGradient() {
   return (
     <linearGradient id="graph-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stopColor={alpha(Color.Green[500], 0.4)} />
-      <stop offset="100%" stopColor={alpha(Color.Green[500], 0)} />
+      <stop offset="0%" stopColor={alpha(Color.Purple[500], 0.4)} />
+      <stop offset="100%" stopColor={alpha(Color.Purple[500], 0)} />
     </linearGradient>
   );
 }
@@ -200,7 +200,7 @@ export default function WalletGraph(props: WalletGraphProps) {
           interpolation="monotoneX"
           style={{
             data: {
-              stroke: Color.Green[500],
+              stroke: Color.Purple[500],
               strokeWidth: 2,
               strokeLinecap: 'round',
               fill: 'url(#graph-gradient)',

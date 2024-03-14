@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines-network/api';
-import { useHiddenList } from '@cryptomines-network/core';
+import type { NFTInfo } from '@serwisgalena/api';
+import { useHiddenList } from '@serwisgalena/core';
 import { useCallback } from 'react';
 
 export default function useHiddenNFTs() {

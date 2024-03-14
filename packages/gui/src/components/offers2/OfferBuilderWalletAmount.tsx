@@ -1,4 +1,4 @@
-import { useWallet } from '@cryptomines-network/wallets';
+import { useWallet } from '@serwisgalena/wallets';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

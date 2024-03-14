@@ -1,5 +1,5 @@
-import { useGetPlotQueueQuery, useThrottleQuery } from '@cryptomines-network/api-react';
-import { Button, Flex, Log } from '@cryptomines-network/core';
+import { useGetPlotQueueQuery, useThrottleQuery } from '@serwisgalena/api-react';
+import { Button, Flex, Log } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogActions, DialogTitle, DialogContent, LinearProgress, Typography } from '@mui/material';
 import React, { useEffect, useState, ReactNode } from 'react';

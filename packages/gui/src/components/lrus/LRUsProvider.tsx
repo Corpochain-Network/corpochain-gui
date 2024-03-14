@@ -1,4 +1,4 @@
-import LRU, { lruCreate } from '@cryptomines-network/core';
+import LRU, { lruCreate } from '@serwisgalena/core';
 import React, { ReactNode, createContext, useCallback, useMemo, useState } from 'react';
 
 export interface LRUsContextData<K, V> {

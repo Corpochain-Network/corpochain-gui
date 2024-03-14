@@ -1,4 +1,4 @@
-import { Flex, Loading } from '@cryptomines-network/core';
+import { Flex, Loading } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Button, Typography, Divider } from '@mui/material';
 import React from 'react';

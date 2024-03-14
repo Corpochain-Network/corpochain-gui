@@ -1,4 +1,4 @@
-import { useLocalStorage } from '@cryptomines-network/api-react';
+import { useLocalStorage } from '@serwisgalena/api-react';
 import { useCallback } from 'react';
 
 export type WalletConnectPreferences = {

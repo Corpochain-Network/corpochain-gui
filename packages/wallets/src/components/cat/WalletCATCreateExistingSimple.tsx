@@ -1,6 +1,6 @@
-import { SyncingStatus } from '@cryptomines-network/api';
-import { useAddCATTokenMutation } from '@cryptomines-network/api-react';
-import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@cryptomines-network/core';
+import { SyncingStatus } from '@serwisgalena/api';
+import { useAddCATTokenMutation } from '@serwisgalena/api-react';
+import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import React from 'react';

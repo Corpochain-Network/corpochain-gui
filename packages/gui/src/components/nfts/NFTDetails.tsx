@@ -1,4 +1,4 @@
-import { toBech32m } from '@cryptomines-network/api';
+import { toBech32m } from '@serwisgalena/api';
 import {
   Color,
   Flex,
@@ -9,7 +9,7 @@ import {
   truncateValue,
   Link,
   useCurrencyCode,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { alpha, Box, Typography } from '@mui/material';
 import React, { useMemo } from 'react';

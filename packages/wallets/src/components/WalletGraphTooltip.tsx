@@ -1,4 +1,4 @@
-import { Color } from '@cryptomines-network/core';
+import { Color } from '@serwisgalena/core';
 import { Box, Paper, Popper, Typography } from '@mui/material';
 import React, { ReactNode, useRef } from 'react';
 
@@ -21,7 +21,7 @@ export default function WalletGraphTooltip(props: WalletGraphTooltipProps) {
       <foreignObject x={x - Math.floor(dotSize / 2)} y={y - Math.floor(dotSize / 2)} width={dotSize} height={dotSize}>
         <Box
           sx={{
-            backgroundColor: Color.Green[500],
+            backgroundColor: Color.Purple[500],
             width: dotSize,
             height: dotSize,
             borderRadius: 9999,

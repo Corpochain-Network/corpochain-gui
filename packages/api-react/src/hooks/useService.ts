@@ -1,4 +1,4 @@
-import { ServiceNameValue } from '@cryptomines-network/api';
+import { ServiceNameValue } from '@serwisgalena/api';
 import { useEffect, useState, useCallback } from 'react';
 
 import { useStartServiceMutation, useStopServiceMutation } from '../services/daemon';

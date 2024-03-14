@@ -1,5 +1,5 @@
-import { OfferSummaryRecord, OfferTradeRecord } from '@cryptomines-network/api';
-import { useCheckOfferValidityMutation, useGetWalletsQuery } from '@cryptomines-network/api-react';
+import { OfferSummaryRecord, OfferTradeRecord } from '@serwisgalena/api';
+import { useCheckOfferValidityMutation, useGetWalletsQuery } from '@serwisgalena/api-react';
 import {
   Back,
   Button,
@@ -17,7 +17,7 @@ import {
   mojoToChia,
   useColorModeValue,
   useShowError,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Plural, Trans, t } from '@lingui/macro';
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { alpha, Box, Divider, Grid, Typography } from '@mui/material';

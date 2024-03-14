@@ -1,6 +1,6 @@
-import { useRefreshPlotsMutation } from '@cryptomines-network/api-react';
-import { Button, CardHero, Flex, Link, useOpenDialog } from '@cryptomines-network/core';
-import { Plots } from '@cryptomines-network/icons';
+import { useRefreshPlotsMutation } from '@serwisgalena/api-react';
+import { Button, CardHero, Flex, Link, useOpenDialog } from '@serwisgalena/core';
+import { Plots } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography, Divider } from '@mui/material';
 import React from 'react';
@@ -32,8 +32,11 @@ export default function PlotOverviewHero() {
           <Plots color="primary" fontSize="extraLarge" />
           <Typography variant="body1">
             <Trans>
-              Plots are allocated space on your hard drive used to farm and earn Cryptomines. &nbsp;
-              <Link target="_blank" href="https://github.com/Cryptomines-Network/cryptomines-blockchain/wiki/Network-Architecture">
+              Plots are allocated space on your hard drive used to farm and earn Corpochain. &nbsp;
+              <Link
+                target="_blank"
+                href="https://github.com/serwisgalena/corpochain/wiki/Network-Architecture"
+              >
                 Learn more
               </Link>
             </Trans>

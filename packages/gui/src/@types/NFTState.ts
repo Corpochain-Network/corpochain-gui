@@ -1,4 +1,4 @@
-import { type NFTInfo } from '@cryptomines-network/api';
+import { type NFTInfo } from '@serwisgalena/api';
 
 type NFTState = {
   nft?: NFTInfo;

@@ -1,5 +1,5 @@
-import { Button, Color, Flex, Logo, Card, useMode, Mode } from '@cryptomines-network/core';
-import { Farming as FarmingIcon } from '@cryptomines-network/icons';
+import { Button, Color, Flex, Logo, Card, useMode, Mode } from '@serwisgalena/core';
+import { Farming as FarmingIcon } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import {
   AccountBalanceWallet as AccountBalanceWalletIcon,
@@ -13,7 +13,7 @@ import styled from 'styled-components';
 const StyledCheckIcon = styled(CheckIcon)`
   border-radius: 9999px;
   padding: ${({ theme }) => theme.spacing(0.5)};
-  background-color: ${alpha(Color.Green[400], 0.2)};
+  background-color: ${alpha(Color.Purple[400], 0.2)};
 `;
 
 const StyledSettingsIcon = styled(SettingsIcon)`

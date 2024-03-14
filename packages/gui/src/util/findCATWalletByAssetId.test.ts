@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines-network/api';
+import { WalletType } from '@serwisgalena/api';
 
 import findCATWalletByAssetId from './findCATWalletByAssetId';
 

@@ -1,12 +1,12 @@
-import type { KeyData } from '@cryptomines-network/api';
+import type { KeyData } from '@serwisgalena/api';
 import {
   usePrefs,
   useGetKeyringStatusQuery,
   useDeleteAllKeysMutation,
   useGetKeysQuery,
   type Serializable,
-} from '@cryptomines-network/api-react';
-import { ChiaBlack, Coins } from '@cryptomines-network/icons';
+} from '@serwisgalena/api-react';
+import { ChiaBlack, Coins } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Alert, Typography, Container, ListItemIcon } from '@mui/material';
@@ -262,7 +262,7 @@ export default function SelectKey() {
                 color="textSecondary"
                 sx={{ fontWeight: 400, fontSize: '18px' }}
               >
-                <Trans>Create a new wallet key to get started with Cryptomines.</Trans>
+                <Trans>Create a new wallet key to get started with Corpochain.</Trans>
               </Typography>
               <Button
                 onClick={() => handleNavigationIfKeyringIsMutable('/wallet/add')}

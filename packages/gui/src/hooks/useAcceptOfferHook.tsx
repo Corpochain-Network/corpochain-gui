@@ -1,6 +1,6 @@
-import type { OfferSummaryRecord, Wallet } from '@cryptomines-network/api';
-import { useTakeOfferMutation } from '@cryptomines-network/api-react';
-import { AlertDialog, chiaToMojo, useOpenDialog, useShowError } from '@cryptomines-network/core';
+import type { OfferSummaryRecord, Wallet } from '@serwisgalena/api';
+import { useTakeOfferMutation } from '@serwisgalena/api-react';
+import { AlertDialog, chiaToMojo, useOpenDialog, useShowError } from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import React from 'react';

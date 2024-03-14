@@ -1,6 +1,6 @@
-import { WalletType, type Wallet } from '@cryptomines-network/api';
-import { useGetCatListQuery } from '@cryptomines-network/api-react';
-import { useCurrencyCode } from '@cryptomines-network/core';
+import { WalletType, type Wallet } from '@serwisgalena/api';
+import { useGetCatListQuery } from '@serwisgalena/api-react';
+import { useCurrencyCode } from '@serwisgalena/core';
 import { Typography, type TypographyProps } from '@mui/material';
 import React from 'react';
 import styled from 'styled-components';

@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines-network/api';
-import { useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { Flex, LayoutDashboardSub, SettingsHR, SettingsSection, SettingsText } from '@cryptomines-network/core';
+import { WalletType } from '@serwisgalena/api';
+import { useGetWalletsQuery } from '@serwisgalena/api-react';
+import { Flex, LayoutDashboardSub, SettingsHR, SettingsSection, SettingsText } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import React, { useEffect, useMemo, useState } from 'react';

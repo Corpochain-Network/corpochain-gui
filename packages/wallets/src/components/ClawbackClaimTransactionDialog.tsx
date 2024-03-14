@@ -3,7 +3,7 @@ import {
   useSetAutoClaimMutation,
   useSpendClawbackCoinsMutation,
   useGetSyncStatusQuery,
-} from '@cryptomines-network/api-react';
+} from '@serwisgalena/api-react';
 import {
   AlertDialog,
   Button,
@@ -20,7 +20,7 @@ import {
   chiaToMojo,
   Checkbox,
   useOpenDialog,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Close as CloseIcon } from '@mui/icons-material';
 import {

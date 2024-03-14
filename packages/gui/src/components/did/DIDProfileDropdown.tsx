@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines-network/api';
-import { useGetDIDsQuery } from '@cryptomines-network/api-react';
-import { DropdownActions, DropdownActionsProps, MenuItem } from '@cryptomines-network/core';
+import type { Wallet } from '@serwisgalena/api';
+import { useGetDIDsQuery } from '@serwisgalena/api-react';
+import { DropdownActions, DropdownActionsProps, MenuItem } from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { PermIdentity as PermIdentityIcon } from '@mui/icons-material';
 import { ListItemIcon } from '@mui/material';

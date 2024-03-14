@@ -1,5 +1,5 @@
-import { ServiceName } from '@cryptomines-network/api';
-import { Mode } from '@cryptomines-network/core';
+import { ServiceName } from '@serwisgalena/api';
+import { Mode } from '@serwisgalena/core';
 
 export default {
   [Mode.WALLET]: [ServiceName.WALLET],

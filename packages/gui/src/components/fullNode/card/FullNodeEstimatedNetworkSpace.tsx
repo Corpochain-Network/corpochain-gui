@@ -1,5 +1,5 @@
-import { useGetBlockchainStateQuery } from '@cryptomines-network/api-react';
-import { FormatBytes, CardSimple } from '@cryptomines-network/core';
+import { useGetBlockchainStateQuery } from '@serwisgalena/api-react';
+import { FormatBytes, CardSimple } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

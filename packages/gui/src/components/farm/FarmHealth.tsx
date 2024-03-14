@@ -5,8 +5,8 @@ import {
   useResetMissingSignagePointsMutation,
   useResetFilterChallengeStatMutation,
   useGetPartialStatsOffsetQuery,
-} from '@cryptomines-network/api-react';
-import { Flex, StateIndicator, State, Tooltip } from '@cryptomines-network/core';
+} from '@serwisgalena/api-react';
+import { Flex, StateIndicator, State, Tooltip } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Button, Paper, Typography, CircularProgress } from '@mui/material';
 import React from 'react';
@@ -385,7 +385,7 @@ function FarmHealth() {
         </Typography>
       </Box>
       <Flex justifyContent="space-evenly" sx={indicatorStyle}>
-          {missingSpsWithTooltip}
+        {missingSpsWithTooltip}
         <Box>
           <Typography variant="body2">
             <Trans>Stale partials</Trans>

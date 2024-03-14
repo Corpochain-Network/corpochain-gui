@@ -1,5 +1,5 @@
-import { toBech32m } from '@cryptomines-network/api';
-import { useGetBlockQuery, useGetBlockRecordQuery } from '@cryptomines-network/api-react';
+import { toBech32m } from '@serwisgalena/api';
+import { useGetBlockQuery, useGetBlockRecordQuery } from '@serwisgalena/api-react';
 import {
   Back,
   Button,
@@ -14,7 +14,7 @@ import {
   useCurrencyCode,
   mojoToChia,
   Suspender,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Paper, TableRow, Table, TableBody, TableCell, TableContainer } from '@mui/material';
 import moment from 'moment';
@@ -247,7 +247,7 @@ export default function Block() {
       <Card
         title={
           <Back variant="h5">
-            <Trans>Block at height {blockRecord.height} in the Cryptomines blockchain</Trans>
+            <Trans>Block at height {blockRecord.height} in the Corpochain blockchain</Trans>
           </Back>
         }
         action={

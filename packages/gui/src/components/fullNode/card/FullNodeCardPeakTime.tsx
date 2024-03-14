@@ -1,5 +1,5 @@
-import { useGetLatestPeakTimestampQuery } from '@cryptomines-network/api-react';
-import { CardSimple } from '@cryptomines-network/core';
+import { useGetLatestPeakTimestampQuery } from '@serwisgalena/api-react';
+import { CardSimple } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import React from 'react';

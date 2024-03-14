@@ -1,4 +1,4 @@
-import { useCloseFarmerConnectionMutation } from '@cryptomines-network/api-react';
+import { useCloseFarmerConnectionMutation } from '@serwisgalena/api-react';
 
 type Props = {
   nodeId: string;

@@ -1,5 +1,5 @@
-import { useGetThrottlePlotQueueQuery } from '@cryptomines-network/api-react';
-import { Card, Table } from '@cryptomines-network/core';
+import { useGetThrottlePlotQueueQuery } from '@serwisgalena/api-react';
+import { Card, Table } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { TableRow } from '@mui/material';
 import React, { useMemo } from 'react';

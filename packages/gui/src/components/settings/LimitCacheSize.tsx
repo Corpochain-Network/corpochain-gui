@@ -1,5 +1,5 @@
-import { usePrefs } from '@cryptomines-network/api-react';
-import { AlertDialog, ButtonLoading, Flex, Form, TextField, useOpenDialog } from '@cryptomines-network/core';
+import { usePrefs } from '@serwisgalena/api-react';
+import { AlertDialog, ButtonLoading, Flex, Form, TextField, useOpenDialog } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';

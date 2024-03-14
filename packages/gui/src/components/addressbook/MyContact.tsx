@@ -1,6 +1,6 @@
-// import { useGetNFTInfoQuery } from '@cryptomines-network/api-react';
-import { useGetKeysQuery, usePrefs, type Serializable } from '@cryptomines-network/api-react';
-import { CopyToClipboard, Flex } from '@cryptomines-network/core';
+// import { useGetNFTInfoQuery } from '@serwisgalena/api-react';
+import { useGetKeysQuery, usePrefs, type Serializable } from '@serwisgalena/api-react';
+import { CopyToClipboard, Flex } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { InputAdornment, TextField, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
@@ -40,7 +40,7 @@ export default function MyContact() {
         const element = key;
         element.color = themeList[key.fingerprint].walletKeyTheme
           ? themeList[key.fingerprint].walletKeyTheme.color
-          : 'green';
+          : 'purple';
         element.emoji = themeList[key.fingerprint].walletKeyTheme
           ? themeList[key.fingerprint].walletKeyTheme.emoji
           : null;

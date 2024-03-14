@@ -1,8 +1,8 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { Wallet } from '@cryptomines-network/api';
-import { useGetWalletsQuery } from '@cryptomines-network/api-react';
-import { Flex, Loading, catToMojo, mojoToCATLocaleString } from '@cryptomines-network/core';
-import { Tokens } from '@cryptomines-network/icons';
+import { WalletType } from '@serwisgalena/api';
+import type { Wallet } from '@serwisgalena/api';
+import { useGetWalletsQuery } from '@serwisgalena/api-react';
+import { Flex, Loading, catToMojo, mojoToCATLocaleString } from '@serwisgalena/core';
+import { Tokens } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import React, { useMemo } from 'react';
@@ -111,7 +111,7 @@ export default function OfferBuilderTokensSection(props: OfferBuilderTokensSecti
     <OfferBuilderSection
       icon={<Tokens color="info" />}
       title={<Trans>Tokens</Trans>}
-      subtitle={<Trans>Cryptomines Asset Tokens (CATs) are tokens built on top of KOP</Trans>}
+      subtitle={<Trans>Corpochain Asset Tokens (CATs) are tokens built on top of KOP</Trans>}
       onAdd={showAdd ? handleAdd : undefined}
       expanded={!!fields.length}
       muted={muted}

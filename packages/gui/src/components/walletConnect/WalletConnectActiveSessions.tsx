@@ -1,4 +1,4 @@
-import { Flex, Loading, TooltipIcon } from '@cryptomines-network/core';
+import { Flex, Loading, TooltipIcon } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React, { useMemo } from 'react';
@@ -54,8 +54,8 @@ export default function WalletConnectActiveSessions(props: WalletConnectActiveSe
                       <Trans>Unsupported commands</Trans>{' '}
                       <TooltipIcon>
                         <Trans>
-                          Your current version of the Cryptomines application may not support some commands requested by the
-                          dApp. For the best experience, consider updating to the latest version.
+                          Your current version of the Corpochain application may not support some commands requested by
+                          the dApp. For the best experience, consider updating to the latest version.
                         </Trans>
                       </TooltipIcon>
                       :&nbsp;

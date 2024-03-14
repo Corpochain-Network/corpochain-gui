@@ -1,12 +1,12 @@
-import { WalletType } from '@cryptomines-network/api';
-import type { Wallet } from '@cryptomines-network/api';
+import { WalletType } from '@serwisgalena/api';
+import type { Wallet } from '@serwisgalena/api';
 import {
   useGetWalletsQuery,
   useGetStrayCatsQuery,
   useGetCatListQuery,
   useAddCATTokenMutation,
-} from '@cryptomines-network/api-react';
-import { useShowError } from '@cryptomines-network/core';
+} from '@serwisgalena/api-react';
+import { useShowError } from '@serwisgalena/core';
 import { orderBy } from 'lodash';
 import { useMemo } from 'react';
 
@@ -141,7 +141,7 @@ export default function useWalletsList(
         hidden: isHidden(wallet.id),
         walletId: wallet.id,
         assetId: wallet.meta?.assetId,
-        name: wallet.type === WalletType.STANDARD_WALLET ? 'Cryptomines' : wallet.meta?.name ?? wallet.name,
+        name: wallet.type === WalletType.STANDARD_WALLET ? 'Corpochain' : wallet.meta?.name ?? wallet.name,
       })),
       ...catBaseWallets.map((wallet: Wallet) => ({
         id: wallet.id,

@@ -1,5 +1,5 @@
-import { english } from '@cryptomines-network/api';
-import { useAddPrivateKeyMutation } from '@cryptomines-network/api-react';
+import { english } from '@serwisgalena/api';
+import { useAddPrivateKeyMutation } from '@serwisgalena/api-react';
 import {
   AlertDialog,
   Autocomplete,
@@ -12,7 +12,7 @@ import {
   useTrans,
   TextField,
   useAuth,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Container, Grid } from '@mui/material';
 import React from 'react';
@@ -155,7 +155,8 @@ export default function WalletImport() {
           </Grid>
           <Typography variant="subtitle1" align="center">
             <Trans>
-              Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Cryptomines wallet.
+              Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Corpochain
+              wallet.
             </Trans>
           </Typography>
           <Grid spacing={2} rowSpacing={3} container>

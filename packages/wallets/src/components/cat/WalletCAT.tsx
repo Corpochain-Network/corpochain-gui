@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines-network/api';
-import { useSetCATNameMutation, useGetCatListQuery } from '@cryptomines-network/api-react';
-import { Flex, Loading, MenuItem, useOpenDialog } from '@cryptomines-network/core';
-import { Offers as OffersIcon } from '@cryptomines-network/icons';
+import { WalletType } from '@serwisgalena/api';
+import { useSetCATNameMutation, useGetCatListQuery } from '@serwisgalena/api-react';
+import { Flex, Loading, MenuItem, useOpenDialog } from '@serwisgalena/core';
+import { Offers as OffersIcon } from '@serwisgalena/icons';
 import { Trans } from '@lingui/macro';
 import { Edit as RenameIcon, Fingerprint as FingerprintIcon } from '@mui/icons-material';
 import { ListItemIcon, Alert, Typography } from '@mui/material';

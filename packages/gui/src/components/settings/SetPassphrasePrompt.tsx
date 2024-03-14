@@ -1,4 +1,4 @@
-import { useGetKeyringStatusQuery, useSetKeyringPassphraseMutation } from '@cryptomines-network/api-react';
+import { useGetKeyringStatusQuery, useSetKeyringPassphraseMutation } from '@serwisgalena/api-react';
 import {
   AlertDialog,
   Button,
@@ -11,7 +11,7 @@ import {
   Form,
   TextField,
   Checkbox,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { t, Trans } from '@lingui/macro';
 import {
   Help as HelpIcon,
@@ -244,7 +244,7 @@ export default function SetPassphrasePrompt(props: Props) {
                 data-testid="SetPassphrasePrompt-save-passphrase"
               />
               <Tooltip
-                title={t`Your passphrase can be stored in your system's secure credential store. Cryptomines will be able to access your keys without prompting for your passphrase.`}
+                title={t`Your passphrase can be stored in your system's secure credential store. Corpochain will be able to access your keys without prompting for your passphrase.`}
               >
                 <HelpIcon style={{ color: Color.Neutral[300], fontSize: 12 }} />
               </Tooltip>

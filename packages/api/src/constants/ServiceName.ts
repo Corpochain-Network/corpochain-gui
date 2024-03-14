@@ -1,16 +1,16 @@
 const ServiceName = {
-  WALLET: 'cryptomines_wallet',
-  FULL_NODE: 'cryptomines_full_node',
-  FARMER: 'cryptomines_farmer',
-  HARVESTER: 'cryptomines_harvester',
-  SIMULATOR: 'cryptomines_full_node_simulator',
+  WALLET: 'corpochain_wallet',
+  FULL_NODE: 'corpochain_full_node',
+  FARMER: 'corpochain_farmer',
+  HARVESTER: 'corpochain_harvester',
+  SIMULATOR: 'corpochain_full_node_simulator',
   DAEMON: 'daemon',
-  PLOTTER: 'cryptomines_plotter',
-  TIMELORD: 'cryptomines_timelord',
-  INTRODUCER: 'cryptomines_introducer',
+  PLOTTER: 'corpochain_plotter',
+  TIMELORD: 'corpochain_timelord',
+  INTRODUCER: 'corpochain_introducer',
   EVENTS: 'wallet_ui',
-  DATALAYER: 'cryptomines_data_layer',
-  DATALAYER_SERVER: 'cryptomines_data_layer_http',
+  DATALAYER: 'corpochain_data_layer',
+  DATALAYER_SERVER: 'corpochain_data_layer_http',
 } as const;
 
 type ObjectValues<T> = T[keyof T];

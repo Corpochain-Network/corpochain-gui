@@ -1,5 +1,5 @@
-import { useCancelOfferMutation } from '@cryptomines-network/api-react';
-import { Card, Flex, Button, TableControlled, useOpenDialog } from '@cryptomines-network/core';
+import { useCancelOfferMutation } from '@serwisgalena/api-react';
+import { Card, Flex, Button, TableControlled, useOpenDialog } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import BigNumber from 'bignumber.js';

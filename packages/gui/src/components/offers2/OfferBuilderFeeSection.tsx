@@ -1,6 +1,6 @@
-import { Loading } from '@cryptomines-network/core';
-import { Fees } from '@cryptomines-network/icons';
-import { useWallet } from '@cryptomines-network/wallets';
+import { Loading } from '@serwisgalena/core';
+import { Fees } from '@serwisgalena/icons';
+import { useWallet } from '@serwisgalena/wallets';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import { useFieldArray } from 'react-hook-form';

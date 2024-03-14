@@ -1,4 +1,4 @@
-import { Button, Flex, Loading, useOpenDialog } from '@cryptomines-network/core';
+import { Button, Flex, Loading, useOpenDialog } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import React, { useMemo } from 'react';
 

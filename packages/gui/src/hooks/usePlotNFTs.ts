@@ -1,5 +1,5 @@
-import type { PlotNFT } from '@cryptomines-network/api';
-import { useGetPlotNFTsQuery } from '@cryptomines-network/api-react';
+import type { PlotNFT } from '@serwisgalena/api';
+import { useGetPlotNFTsQuery } from '@serwisgalena/api-react';
 import PlotNFTExternal from 'types/PlotNFTExternal';
 
 import useUnconfirmedPlotNFTs from './useUnconfirmedPlotNFTs';

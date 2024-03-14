@@ -1,6 +1,11 @@
-import { NFTInfo } from '@cryptomines-network/api';
-import type { Wallet } from '@cryptomines-network/api';
-import { useGetDIDsQuery, useGetNFTWallets, useSetNFTDIDMutation, useLocalStorage } from '@cryptomines-network/api-react';
+import { NFTInfo } from '@serwisgalena/api';
+import type { Wallet } from '@serwisgalena/api';
+import {
+  useGetDIDsQuery,
+  useGetNFTWallets,
+  useSetNFTDIDMutation,
+  useLocalStorage,
+} from '@serwisgalena/api-react';
 import {
   AlertDialog,
   Button,
@@ -16,7 +21,7 @@ import {
   truncateValue,
   useOpenDialog,
   useShowError,
-} from '@cryptomines-network/core';
+} from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { Box, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import React, { useMemo } from 'react';

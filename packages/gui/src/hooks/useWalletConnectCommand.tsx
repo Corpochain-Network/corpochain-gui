@@ -1,5 +1,5 @@
-import api, { store, useGetLoggedInFingerprintQuery } from '@cryptomines-network/api-react';
-import { useOpenDialog, useAuth } from '@cryptomines-network/core';
+import api, { store, useGetLoggedInFingerprintQuery } from '@serwisgalena/api-react';
+import { useOpenDialog, useAuth } from '@serwisgalena/core';
 import { Trans } from '@lingui/macro';
 import debug from 'debug';
 import React, { type ReactNode } from 'react';

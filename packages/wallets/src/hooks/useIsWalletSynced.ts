@@ -1,4 +1,4 @@
-import { SyncingStatus } from '@cryptomines-network/api';
+import { SyncingStatus } from '@serwisgalena/api';
 
 import useWalletState from './useWalletState';
 

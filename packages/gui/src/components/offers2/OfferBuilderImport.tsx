@@ -1,7 +1,7 @@
 import fs, { Stats } from 'fs';
 
-import { useGetOfferSummaryMutation } from '@cryptomines-network/api-react';
-import { Color, Dropzone, Flex, useSerializedNavigationState, useShowError } from '@cryptomines-network/core';
+import { useGetOfferSummaryMutation } from '@serwisgalena/api-react';
+import { Color, Dropzone, Flex, useSerializedNavigationState, useShowError } from '@serwisgalena/core';
 import { Trans, t } from '@lingui/macro';
 import { Box, Card, Typography } from '@mui/material';
 import React from 'react';
@@ -168,7 +168,7 @@ export default function OfferBuilderImport() {
           </Typography>
           <Typography color="textSecondary" textAlign="center">
             <Trans>
-              or <span style={{ color: Color.Green[400] }}>browse</span> on your computer
+              or <span style={{ color: Color.Purple[400] }}>browse</span> on your computer
             </Trans>
           </Typography>
         </Flex>

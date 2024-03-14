@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines-network/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines-network/api-react';
-import type { CATToken, Wallet } from '@cryptomines-network/core';
-import { useCurrencyCode } from '@cryptomines-network/core';
+import { WalletType } from '@serwisgalena/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@serwisgalena/api-react';
+import type { CATToken, Wallet } from '@serwisgalena/core';
+import { useCurrencyCode } from '@serwisgalena/core';
 import { useMemo, useRef, useCallback } from 'react';
 
 export type AssetIdMapEntry = {
@@ -40,7 +40,7 @@ export default function useAssetIdName() {
 
       if (walletType === WalletType.STANDARD_WALLET) {
         assetId = 'kop';
-        name = 'Cryptomines';
+        name = 'Corpochain';
         symbol = currencyCode;
         isVerified = true;
       } else if (walletType === WalletType.CAT) {
@@ -96,7 +96,7 @@ export default function useAssetIdName() {
     // If using testnet, add a TKOP assetId entry
     if (currencyCode === 'TKOP') {
       const assetId = 'tkop';
-      const name = 'Cryptomines (Testnet)';
+      const name = 'Corpochain (Testnet)';
       const symbol = 'TKOP';
       const displayName = symbol || name;
       const entry: AssetIdMapEntry = {
