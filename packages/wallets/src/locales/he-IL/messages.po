@@ -485,7 +485,7 @@ msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:23
 msgid "This is the amount of Corpochain that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Corpochain that you have just spent but is not yet in the blockchain."
-msgstr "זהו סכום ה-Cryptomines שבהם תוכל להשתמש כעת לביצוע עסקאות. זה לא כולל תגמולים בהמתנה, עסקאות נכנסות בהמתנה ומטבעות Corpochain שכבר משכת אבל עוד לא הופיע ב-Blockchain."
+msgstr "זהו סכום ה-Corpochain שבהם תוכל להשתמש כעת לביצוע עסקאות. זה לא כולל תגמולים בהמתנה, עסקאות נכנסות בהמתנה ומטבעות Corpochain שכבר משכת אבל עוד לא הופיע ב-Blockchain."
 
 #: src/components/standard/WalletStandardCards.tsx:42
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."

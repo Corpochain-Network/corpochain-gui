@@ -11,8 +11,8 @@ import untildify from './untildify';
 export function getConfigRootDir(net = 'mainnet'): string {
   const homedir = os.homedir();
 
-  return 'CRYPTOMINES_ROOT' in process.env
-    ? untildify(process.env.CRYPTOMINES_ROOT)
+  return 'CORPOCHAIN_ROOT' in process.env
+    ? untildify(process.env.CORPOCHAIN_ROOT)
     : path.join(homedir, '.corpochain', net);
 }
 

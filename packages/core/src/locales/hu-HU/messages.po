@@ -545,7 +545,7 @@ msgstr ""
 
 #: src/screens/SelectKey/SelectKey.tsx:142
 #~ msgid "Welcome to Corpochain. Please log in with an existing key, or create a new key."
-#~ msgstr "Üdvözöljük a Cryptomines-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
+#~ msgstr "Üdvözöljük a Corpochain-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:177
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66

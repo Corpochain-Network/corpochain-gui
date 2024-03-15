@@ -418,7 +418,7 @@ msgstr ""
 
 #: src/screens/SelectKey/SelectKey.tsx:142
 msgid "Welcome to Corpochain. Please log in with an existing key, or create a new key."
-msgstr "ברוכים הבאים ל-Cryptomines. בבקשה התחבר עם מפתח קיים, או צור/י לעצמך מפתח חדש."
+msgstr "ברוכים הבאים ל-Corpochain. בבקשה התחבר עם מפתח קיים, או צור/י לעצמך מפתח חדש."
 
 #: src/components/Back/Back.tsx:40
 #: src/components/FormBackButton/FormBackButton.tsx:31

@@ -657,7 +657,7 @@ msgstr "Block"
 
 #: src/components/block/Block.jsx:250
 msgid "Block at height {0} in the Corpochain blockchain"
-msgstr "Block vid höjd {0} i Cryptomines-blockkedjan"
+msgstr "Block vid höjd {0} i Corpochain-blockkedjan"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:32
 msgid "Block Rewards"

@@ -43,7 +43,7 @@
       "executableName": "Corpochain"
     },
     "nsis": {
-      "artifactName": "CryptominesSetup-${env.CORPOCHAIN_INSTALLER_VERSION}.exe",
+      "artifactName": "CorpochainSetup-${env.CORPOCHAIN_INSTALLER_VERSION}.exe",
       "oneClick": false,
       "deleteAppDataOnUninstall": true,
       "allowToChangeInstallationDirectory": true,
