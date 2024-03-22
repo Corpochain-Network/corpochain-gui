@@ -90,11 +90,12 @@ const indicatorStyle = {
 export default React.memo(FarmHealth);
 function FarmHealth() {
   const { farmerStatus, blockchainState } = useFarmerStatus();
+  console.log(blockchainState);
   const { data: missingSpsData, isLoading: isLoadingMissingSps } = useGetMissingSignagePointsQuery();
   const [resetMissingSps] = useResetMissingSignagePointsMutation();
   const { data: poolStateData, isLoading: isLoadingPoolStateData } = useGetPoolStateQuery();
   const { data: filterChallengeStat, isLoading: isLoadingFilterChallengeStat } = useGetFilterChallengeStatQuery(
-    blockchainState?.peak.height || 0
+    blockchainState?.peak?.height || 0
   );
   const [resetFilterChallengeStat] = useResetFilterChallengeStatMutation();
   const { data: partialStatsOffset, isLoading: isLoadingPartialStatsOffset } = useGetPartialStatsOffsetQuery();
